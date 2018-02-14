@@ -1,2 +1,1 @@
-# Summit2018
-Internal mirror for https://github.com/Adobe-Marketing-Cloud/Summit2018
+# L727 - Experience Manager Screens: Zero to personalized in 90 minutes
