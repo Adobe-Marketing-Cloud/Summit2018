@@ -1,2 +1,1 @@
-# Summit2018
-Internal mirror for https://github.com/Adobe-Marketing-Cloud/Summit2018
+# L735 - Adobe Experience Manager Commerce how-to
