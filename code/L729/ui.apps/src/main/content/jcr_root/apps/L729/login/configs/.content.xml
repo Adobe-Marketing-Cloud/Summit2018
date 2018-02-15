@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured">
+    <default
+        jcr:primaryType="nt:unstructured"
+        order="{Long}100">
+        <footer jcr:primaryType="nt:unstructured">
+            <copy
+                jcr:primaryType="nt:unstructured"
+                text="© {0} Adobe Systems Incorporated. All Rights Reserved."/>
+            <items/>
+        </footer>
+    </default>
+    <cq/>
+</jcr:root>

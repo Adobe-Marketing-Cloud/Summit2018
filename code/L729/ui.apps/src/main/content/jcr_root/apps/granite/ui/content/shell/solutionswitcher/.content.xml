@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="granite/ui/components/shell/solutionswitcher">
+    <primary jcr:primaryType="nt:unstructured">
+            <analytics
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_analytics"
+            icon="adobeAnalytics"
+            text="Analytics"
+            text_commentI18n="Branding Name"/>
+        <audiencemanager
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_audiencemanager"
+            icon="adobeAudienceManager"
+            text="Audience Manager"
+            text_commentI18n="Branding Name"/>
+        <campaign
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_campaign"
+            icon="adobeCampaign"
+            text="Campaign"
+            text_commentI18n="Branding Name"/>
+        <aem
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_experiencemanager"
+            icon="adobeExperienceManagerColor"
+            linked="{Boolean}true"
+            text="Experience Manager"
+            text_commentI18n="Branding Name"/>
+        <mediaoptimizer
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_mediaoptimizer"
+            icon="adobeMediaOptimizer"
+            text="Media Optimizer"
+            text_commentI18n="Branding Name"/>
+        <primetime
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_primetime"
+            icon="adobePrimetime"
+            text="Primetime"
+            text_commentI18n="Branding Name"/>
+        <social
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_social"
+            icon="adobeSocial"
+            text="Social"
+            text_commentI18n="Branding Name"/>
+        <target
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_target"
+            icon="adobeTarget"
+            text="Target"
+            text_commentI18n="Branding Name"/>
+    
+    </primary>
+       <secondary jcr:primaryType="nt:unstructured">
+        <activation
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_activation"
+            icon="launch"
+            text="Activation"
+            text_commentI18n="Branding Name"/>
+        <assets
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_others"
+            icon="asset"
+            text="Assets"
+            text_commentI18n="Branding Name"/>
+        <exchange
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_exchange"
+            icon="sync"
+            text="Exchange"
+            text_commentI18n="Branding Name"/>
+        <feed
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_others"
+            icon="feed"
+            text="Feed"
+            text_commentI18n="Branding Name"/>
+        <mobileservices
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_mobile"
+            icon="mobileServices"
+            text="Mobile Services"
+            text_commentI18n="Branding Name"/>
+        <profilesaudiences
+            jcr:primaryType="nt:unstructured"
+            href_i18n="http://www.adobe.com/go/aem6_3_profiles"
+            icon="user"
+            text="Profiles &amp; Audiences"
+            text_commentI18n="Branding Name"/>
+    </secondary>
+    
+</jcr:root>

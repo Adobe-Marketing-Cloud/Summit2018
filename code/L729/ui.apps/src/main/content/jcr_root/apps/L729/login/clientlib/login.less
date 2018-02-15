@@ -1,0 +1,250 @@
+@import "utilities.less";
+
+// TODO: this should be take from the Coral2 commons
+@base-size: 16px;              // The size of one rem in pixels
+@px: 0rem + (1 / @base-size);  // The size of one pixel in rems
+@vpx: 0em + (1 / @base-size);  // The size of one variable pixel in ems (increases relative to font size)
+
+html, body {
+  // changes the background color to be able to use opacity in the background image.
+  background-color: #000 !important;
+}
+
+#tag {
+  background: url(/apps/L729/login/clientlib/resources/adobe-logo.png) no-repeat;
+  background-repeat: no-repeat;
+
+  -webkit-background-size: 43px 68px;
+  -moz-background-size: 43px 68px;
+  background-size: 43px 68px;
+
+  height: 68px;
+  position: absolute;
+  right: 17px;
+  top: 0;
+  width: 43px;
+  z-index: 100;
+}
+
+#login-box {
+  position: absolute;
+  z-index:200;
+  background-color: #000; /* no rgba fallback */
+  background-color: rgba(17, 17, 17, 0.8);
+  top: 50%;
+  right: 0;
+  margin-top: -152px;
+  color: #fff;
+  padding: 28px;
+  min-width: 400px;
+  max-width: 700px;
+  text-align: left;
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#AA171717',endColorstr='#AA171717');
+  border-bottom-left-radius: .250rem;
+  border-top-left-radius: .250rem;
+
+  p {
+    font-size: 17px;
+    font-size: 1rem;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+}
+
+.header {
+
+  margin-bottom: 18px;
+
+  h1 {
+    font-size: 32px;
+    font-size: 2rem;
+    line-height: 1;
+    color: #fff;
+  }
+}
+
+.box {
+  width: 42%;
+  float: left;
+}
+
+#leftbox {
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.rightbox {
+  padding: 0 0 0 30px ;
+  margin: 0;
+  border-left: 1px solid rgba(255,255,255,.2);
+}
+
+#login {
+   // aligns the button, wait, and link
+  .coral-Button, .coral-Wait, #forgotpwd {
+    vertical-align: middle;
+  }
+
+  #forgotpwd {
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+#login label[for="username"],
+#login label[for="password"],
+#login label[for="new_password"],
+#login label[for="confirm_password"] {
+    .visuallyhidden;
+}
+
+// overrides the default margin
+#login.coral-Form--vertical .coral-Form-field {
+  margin: 0 0 10*@px;
+}
+
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -34px;
+}
+
+#footer {
+  z-index: 110;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  position: absolute;
+  bottom: 0;
+  background-color: #000; /* no rgba fallback */
+  background-color: rgba(0, 0, 0, 0.80);
+  border-top-color: #333;
+  color: #CCCCCC;
+  font-size: 11px;
+  font-size: 0.70rem;
+  font-weight: normal;
+}
+
+.legal-footer {
+  padding: 7px 20px 8px;
+  border-top-color: #333;
+
+  span {
+    margin-top: 2px;
+    float: right;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    font-size: 11px;
+    font-size: 0.70rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin-right: 20px;
+      font-size: 11px;
+      font-size: 0.70rem;
+      margin-top: 3px;
+    }
+  }
+
+  a,
+  a:visited {
+    color: #CCCCCC;
+    text-decoration: none;
+  }
+
+  a.lang,
+  a.lang:visited {
+    color: #449FDF;
+  }
+}
+
+@media all and (max-width: 634px) {
+
+  // Variables
+  @login-box-padding: 16*@px;
+  @footer-height: 99px;
+  @box-margin: 8*@px;
+  #tag {
+    right: @login-box-padding;
+
+  }
+
+  #login-box .header,
+  #login-box .box {
+    float: none;
+    width: auto;
+    max-width: 400px;
+  }
+
+  #login-box {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: @login-box-padding;
+    min-width: 100px;
+    max-width: 100%;
+    background-color: transparent;
+  }
+  #leftbox {
+    float: none;
+    display: block;
+    margin: 0 0 @box-margin 0;
+  }
+  .rightbox {
+    float: none;
+    display: block;
+    margin: @box-margin 0 0 0;
+    padding: @box-margin * 2 0 0 0;
+    border-left: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
+  }
+
+  #backgrounds {
+    opacity: 0.4;
+  }
+
+  #wrap {
+    margin: 0 auto -@footer-height;
+  }
+  #push,
+  #footer {
+    height: @footer-height;
+    bottom: auto;
+    position: relative;
+  }
+
+  .legal-footer ul li {
+    width: 100%;
+    display: block;
+  }
+
+  .legal-footer span {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+}
+
+// generic background settings
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-color: transparent;
+}

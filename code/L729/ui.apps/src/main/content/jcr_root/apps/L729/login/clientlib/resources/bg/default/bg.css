@@ -1,0 +1,73 @@
+/*
+
+  This default background is already included in the clientlib, which is inlined in the login.html.
+  so the URL's here need to be relative to the HTML.
+
+
+*/
+
+#bg_default {
+    background-color: #352e40; /* Fallback color */
+}
+
+@media only screen and (orientation: portrait) {
+    /*#bg_default::after {*/
+        /*content: "orientation portrait (768x966)";*/
+    /*}*/
+    #bg_default {
+        background-image: url('/apps/L729/login/clientlib/resources/bg/default/768x966.jpg');
+    }
+}
+@media only screen and (orientation: landscape) {
+    /*#bg_default::after {*/
+        /*content: "orientation landscape (1024x710)";*/
+    /*}*/
+    #bg_default {
+        background-image: url('/apps/L729/login/clientlib/resources/bg/default/1024x710.jpg');
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    /*#bg_default::after {*/
+        /*content: "orientation portrait (768x966, retina)";*/
+    /*}*/
+    #bg_default {
+        background-image: url('/apps/L729/login/clientlib/resources/bg/default/1536x2048.jpg');
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    /*#bg_default::after {*/
+        /*content: "orientation landscape (1024x710, retina)";*/
+    /*}*/
+    #bg_default {
+        background-image: url('/apps/L729/login/clientlib/resources/bg/default/2048x1536.jpg');
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    /*#bg_default::after {*/
+        /*content: "desktop (1280x768)";*/
+    /*}*/
+    #bg_default {
+        background-image: url('/apps/L729/login/clientlib/resources/bg/default/1280x768.jpg');
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    /*#bg_default::after {*/
+        /*content: "desktop (1280, retina)";*/
+    /*}*/
+    #bg_default {
+        background-image: url('/apps/L729/login/clientlib/resources/bg/default/2048x1536.jpg');
+    }
+}
+
+@media only screen and (min-width: 2048px) {
+    /*#bg_default::after {*/
+        /*content: "desktop (2048x1536)";*/
+    /*}*/
+    #bg_default {
+        background-image: url('/apps/L729/login/clientlib/resources/bg/default/2048x1536.jpg');
+    }
+}
