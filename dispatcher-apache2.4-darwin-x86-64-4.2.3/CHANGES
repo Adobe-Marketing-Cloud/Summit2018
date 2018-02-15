@@ -1,0 +1,389 @@
+
+Issues resolved in 4.2.3
+
+   DISP-652 - Dispatcher serves wrong Date header
+   DISP-657 - Buffer data to be sent over socket
+   DISP-658 - Change default config to allow clientlibs and woff2
+   DISP-660 - Invalidation request does not clear "jcr:content" folder
+   DISP-661 - Dispatcher Logs: To be allowed to be separated to multiple tenants
+   DISP-662 - Add filter rules to support We.Retail on publish
+   DISP-671 - Restarting the dispatcher leaks memory, eventually leading to an out of memory
+   DISP-672 - Items expired by TTL can be requested multiple times before recaching
+   DISP-673 - Re-Fetching feature fails to send "Server-Agent" header
+   DISP-674 - Dispatcher returns 200 for all ErrorDocuments if its cache is disabled
+   DISP-676 - Dispatcher removes Last-Modified header for uncached requests
+   DISP-678 - Allow request path elements in /cache section
+   DISP-680 - TTL files are not removed if AEM response does not contain cache-control header
+
+
+Issues resolved in 4.2.2
+
+   DISP-640 - Invalidating the content flushes the cache even if "serveStaleOnError" is enabled
+   DISP-642 - auth_checker ACL checked against header names, not lines
+   DISP-646 - AIX 64-bit SSL build is 32-bit
+   DISP-648 - Inaccurate Dispatcher response for blocked methods (InfoSec)
+   DISP-644 - Client's Last-Modified HTTP header should equal cached one
+   DISP-647 - Log cache hit rate periodically
+   DISP-650 - Make chunked response configurable
+   DISP-651 - Store small request bodies for retransmit
+   DISP-653 - Support environment variables in include directives
+
+
+Issues resolved in 4.2.1
+
+   DISP-575 - dispatcher does not load balance effectively
+   DISP-613 - SSL-enabled iPlanet dispatcher module on Solaris not thread-safe
+   DISP-618 - DispatcherPassError fails with code > 500
+   DISP-622 - Log file rotation is not synchronized
+   DISP-625 - URL Filters w/o Queries are not honored
+   DISP-629 - SSL-enabled build not usable on Debian systems
+   DISP-610 - html; requests are returning text response from cache
+   DISP-612 - should be able to turn response header about cache information off
+   DISP-615 - Make keep-alive default
+   DISP-617 - Update package share and documentation to indicate support for IIS 10
+   DISP-619 - Deprecate DispatcherNoServerHeader
+   DISP-626 - Log warning when glob patterns are used in combination with allow
+   DISP-614 - httponly flag for renderid cookie
+   DISP-620 - Add support for subject alternative name for host verification
+   DISP-624 - Make httpd.conf variables available in dispatcher.any
+   DISP-632 - Dispatcher should check for self-signed certificates
+
+
+Issues resolved in 4.2.0
+
+   DISP-589 - Including other files in dispatcher.any does not work on Windows
+   DISP-599 - SSI features breaks delivering cached resources with NTLM authentication
+   DISP-603 - HTTP/2 requests to Apache are declined by dispatcher
+   DISP-606 - Dispatcher issue with special characters in URL
+   DISP-507 - Dispatcher's readme file
+   DISP-510 - Dispatcher should use OpenSSL 1.0.1
+   DISP-541 - Enhance the dispatcher with TRACE Level logging
+   DISP-567 - Support HTTP keep-alive on all platforms
+   DISP-570 - Dump processed dispatcher.any
+   DISP-595 - Explain why dispatcher is not caching "Detected: dispatcher must not cache"
+   DISP-604 - dispatcher cache file permission
+   DISP-538 - Enhance the filter and rules in dispatcher
+
+
+Issues resolved in 4.1.12
+
+   DISP-573 - Dispatcher Refetch feature does not encode the URI in the refetch request to the publish instance
+   DISP-576 - Dispatcher sometimes returns 404 after flush
+   DISP-580 - Unable to start SSL-enabled Dispatcher for IIS
+   DISP-581 - DispatcherPassError not working consistently on Apache 2.4
+   DISP-583 - Functions relying on current time broken in Windows and 32-bit builds
+   DISP-588 - Dispatcher randomly responding with 502 errors
+   DISP-358 - Implement configtest for Apache and show warning if include in the dispatcher.any are not found
+   DISP-417 - default config: deny query selector more broadly
+   DISP-451 - /auth_checker is not included in sample dispatcher.any
+   DISP-565 - Files included by glob characters should be sorted
+   DISP-587 - HEAD requests should be served from cache
+   DISP-370 - Dispatcher should redirect if auth_checker servlet returns 302
+
+
+Issues resolved in 4.1.11
+
+   DISP-315 - Add new IIS Dispatcher installation notes
+   DISP-500 - XSS in the dispatcher due to mime type sniffing
+   DISP-516 - Win7 Native Client not working through Dispatcher
+   DISP-532 - Empty body after keepalive commit (4248d29b56e2f0012979072afa82353e800f63ce)
+   DISP-548 - broken make script for test
+   DISP-555 - Vanity URLs do not work when publish is running on Windows
+   DISP-559 - The client context function in AEM6.1 does not seem to be working in the dispatcher.
+   DISP-566 - IE: Create Empty Login Token And Allow Unsecure Login To CUG Pages
+   DISP-568 - SSL handshake with AEM 6.1 on secure port fails
+   DISP-279 - WebServer Custom Error Page for Sun Java System Web Server 7 using dispatcher
+   DISP-294 - Implement TTL based cache invalidation in dispatcher
+   DISP-365 - throttle stat file touching
+   DISP-403 - RTC: Drop support for IIS 6
+   DISP-497 - Dispatcher doesn't cache response headers
+   DISP-501 - Dispatcher should have last-modified time on the file it caches
+   DISP-535 - Mutual SSL Support for IIS
+   DISP-556 - Message "incomplete request, no socket reuse" logged, although response is valid
+   DISP-557 - Dispatcher converts HEAD request to GET even if request is not cacheable
+   DISP-561 - The dispatcher README and Release notes should link to the dispatcher documentation page
+   DISP-562 - 32 bit dispatcher module for apache v2.4 on AIX PowerPC 64bit
+
+
+Issues resolved in 4.1.10
+
+   DISP-524 - Dispatcher fails to send content length
+   DISP-542 - OK (200) status is returned for requests denied by filter
+   DISP-545 - Dispatcher forwards escaped semicolon (%3B) unescaped
+   DISP-547 - An empty PUT request with Expect: 100-Continue returns a 100 status code
+   DISP-550 - Permission Sensitive Caching request is not using render id from the stickyConnectionFor cookie
+   DISP-553 - Spooling request body failed error when uploading large files
+   DISP-504 - Send X-Forwarded-Port in combination with X-Forwarded-SSL
+
+
+Issues resolved in 4.1.9
+
+   DISP-502 - iPlanet Distribution Packages contain wrong configuration samples
+   DISP-505 - Log rotation capability for Dispatcher 4.1.7/4.1.8 for Apache 2.2 on Linux i686 and Windows
+   DISP-508 - SSL support of the IIS Dispatcher is not thread safe.
+   DISP-515 - Startup failure - 'Symbol not found' error for dispatcher-apache2.2-solaris-sparc-4.1.8 module
+   DISP-509 - Allow response headers to be automatically sent for path and/or content types
+   DISP-518 - Add keep-alive support
+   DISP-524 - Automatic insert Vanity URL rules into dispatcher
+   DISP-522 - Request - Dispatcher Darwin Build For Apache 2.4
+
+
+Issues resolved in 4.1.8
+
+   DISP-475 - Refetch not working in IIS with single entry
+   DISP-490 - dispatcher authorization request truncate the headers
+   DISP-493 - Dispatcher throw "exit signal Segmentation fault (11)"
+   DISP-496 - IIS Dispatcher does not write entries to windows event log
+   DISP-303 - Add log rotation for IIS version of the dispatcher
+   DISP-491 - Support SSI in IIS 7.5 with exec cgi include
+
+
+Issues resolved in 4.1.7
+
+   DISP-454 - Need dispatcher to support ssl with IBM HTTP Server 7 running in RHEL 6.4
+   DISP-460 - Dispatcher 4.1.6 truncates HTTP responses the ELB IPs
+   DISP-463 - Uploading file > 2GB in size to DAM fails
+   DISP-467 - In case of PSC, assets with space in their names are not served from cache but from instance
+   DISP-473 - Missing scheme in virtualhosts pattern should also match https
+   DISP-474 - Unquoted values lose first character
+   DISP-478 - Flush of parent of an ongoing GET results in 404, if resource is newly cached
+   DISP-481 - Response body for 5xx is not forwarded
+
+
+Issues resolved in 4.1.6
+
+   DISP-367 - Dispatcher got connection timeout due to the caching of the ELB IPs
+   DISP-412 - url encoding between dispatcher and CQ breaks oauth 1 signature
+   DISP-317 - Cascading dispatcher instances
+   DISP-437 - Replace manual HTTP communication with http_client
+   DISP-324 - Support needed for path based stickyness
+   DISP-429 - Support Apache 2.4 on Linux 32bit
+   DISP-434 - Abandon support for Apache 2.0
+   DISP-449 - Support Apache 2.4 on Solaris i386 (32-bit)
+
+
+Issues resolved in 4.1.5
+
+   DISP-280 - DispatcherPassError set to 1 prevents some siteadmin functionnality to work correctly
+   DISP-407 - Security Checklist: Default dispatcher rules can be circumvented by query-string
+   DISP-409 - Dispatcher rules may be circumvented with spaces in the URI
+   DISP-414 - Log message when configuration is unreadable for some reason
+   DISP-418 - symbol WEXITSTATUS: referenced symbol not found
+   DISP-422 - libssl.so.10: cannot open shared object file
+   DISP-428 - Need dispatcher builds for AIX 7.1 (64bit PPC) / Apache 2.4
+   DISP-432 - Considerable delay between request and response processing
+   DISP-438 - SSL-enabled dispatcher for Solaris 64-bit has wrong
+              runtime library path
+
+
+Issues resolved in 4.1.4
+
+   DISP-341 - Enhance failover mechanism
+   DISP-349 - Support IIS 8 on Windows Server 2012
+   DISP-350 - Provide a way for the dispatcher to invalidate just a single resource without touching the stat files
+   DISP-352 - default dispatcher.any file doesn't allow  .jpeg or .jpg files
+   DISP-353 - provide a default/example dispatcher.any file for use in front of author
+   DISP-355 - review default dispatcher config and make sure it's  secure by default
+   DISP-369 - Dispatcher sometimes doesn't output new lines in the logs
+   DISP-371 - Bad reason phrase
+   DISP-378 - http_client crashes when processing response header for an already existing name (e.g. Set-Cookie)
+   DISP-381 - Default dispatcher.any contains useless rules
+   DISP-388 - Siteadmin displayed as html source code in IE9
+   DISP-389 - Deactivating DAM assets containing spaces not flush the cache
+   DISP-391 - default dispatcher configuration doesn't handle invalidation of SiteCatalyst analytics javascript
+   DISP-393 - Provide SSL Enabled Dispatcher for Windows x64 Apache
+   DISP-394 - Support Apache 2.4 Solaris Sparc 32bit
+   DISP-396 - Dispatchers built for Linux/x86-64 fail to load: ELF file OS ABI invalid
+   DISP-397 - default dispatcher configuration doesn't handle  invalidation of segmentation javascript
+   DISP-400 - Invalidation hook for scripted cache flush
+
+
+Issues resolved in 4.1.3
+
+   DISP-1   - Add secure http functionality to the dispatcher
+   DISP-316 - separate caches based on port or a header other than host
+   DISP-354 - Activation request to an author over dispatcher
+   DISP-357 - Provide information on client's SSL request
+   DISP-362 - Connection to backend refused if bind address not the first returned by getaddrinfo(3)
+   DISP-363 - Support Apache 2.4 on Solaris SPARCV9 (64-bit)
+   DISP-364 - Non-existing configuration file not treated as fatal error
+
+
+Issues resolved in 4.1.2
+
+   DISP-320 - Linux Dispatcher module causing IBM WebSphere application access problems
+   DISP-339 - IIS worker process locks files in cache
+   DISP-342 - Malformed dispatcher.any might cause crash
+   DISP-345 - FPE on startup on SuSE 10 with Apache 2.2
+   DISP-346 - Include ModMimeUsePathInfo in the sample configuration
+   DISP-347 - IIS does not log HTTP 503 correctly into W3SVC
+   DISP-348 - Replication DELETE of a content page does not evict related files
+
+
+Issues resolved in 4.1.1
+
+   DISP-246 - Keep caching for certain URL parameters to allow performant campaign tracking
+   DISP-283 - Dispatcher support for Apache HTTPD 2.4
+   DISP-284 - Rules can be circumvent with URL encoding
+   DISP-286 - Return 500 response to client if dispatcherPassError is 0
+   DISP-307 - IIS worker process (w3wp.exe) crashes when render is unavailable
+   DISP-310 - when dispatcher 4.0.11 & 4.1 creates css and js files in its cache, wrong date was used.
+   DISP-311 - Dispatcher not flushing cache for folder delete
+   DISP-314 - Request header If-Modified-Since is transmitted to backend
+   DISP-318 - Dispatcher: Permission Sensitive Caching not respecting Sticky Sessions
+   DISP-323 - error-prone string handling (strcpy) in Dispatcher
+   DISP-326 - Caching should fail if backend's HTTP response is malformed
+   DISP-327 - Timeout while waiting for very slow response (> 10 minutes)
+   DISP-331 - Dispatcher 4.1.1 builds missing
+   DISP-332 - Dispatcher connection test succeeds although invalidate denied in /allowedClients
+
+
+Issues resolved in 4.1.0
+
+   38040 - Resources are still served from cache after setting no-cache header
+   39590 - Health_check page gets back 404 on a CQ5 instance running on
+   37456 - Allow stale content to be served from cache if the renders a
+   34246 - NTLM Persistence Issue
+   37936 - Replace existing directory in cache with target
+   38552 - Dispatcher: syntax check does not work for first item in a b
+   39418 - Buffer Overflow in dispatcher/Sessmgr.c
+   39419 - Potential Buffer Overflow in dispatcher/session.c
+   39421 - Potential NULL byte write in base/base.c
+   39422 - Potential Buffer Overflows in base/base.c
+   39424 - Potential Command Injection in dispatcher/flush.c
+   23685 - Change clientheaders section into ACL type
+   33964 - Sample config file: add /allowedclients section per default
+
+
+Issues resolved in 4.0.11
+
+   37292 - Rules can be circumvent with URL encoding
+   36834 - Cached files should have same last-modified as retrieved from the response
+
+
+Issues resolved in 4.0.10:
+
+   36004 - delay in creating the cache file on the dispatcher
+   35648 - Authentication fails with IHS 6.0.2.43
+   34947 - authentication fails when using CUG and DispatcherPassError 1
+   35175 - Encoding problem while creating Folders having special characters
+   34354 - IPv6 compliance
+   34342 - Http Header Length Limitation
+  
+  
+Issues resolved in 4.0.9:
+
+   33715 - Avoid sending request body to non-functional render
+   33539 - Same render returned twice in 2 iterations
+   32511 - UTF-8 url doesn't work with dispatcher on Windows platform using IIS or Apache
+   31758 - dispatcher influence other application / current working dir
+   30188 - Dispatcher is case-sensitive for the virtual host filtering
+   29513 - NameTrans URL rewrite ignored
+   29445 - Simultaneous request for a single result in multiple request
+   29399 - Response cookies must not be merged
+   29336 - apr_stat reports wrong size
+   29201 - Requesting a URL that maps to an existing cache directory, but matches a CQ resource fails
+   29142 - Dispatcher is unable to deliver cached files with special characters
+   28777 - Add memory leak detection
+   28721 - MD5 digest wrong in 64-bit builds
+   28720 - urlenc_ex() might cause buffer overrun
+   28719 - makedeepdir() fails with EINVAL
+   28654 - Crash when caching compressed files
+   28596 - Apache 2.2 AIX build missing
+   28595 - Return cache information in custom headers
+   25896 - Dispatcher does not work with mod_dir
+   24120 - Support for 40x error codes for ErrorDocument handling
+    5518 - switch for configure the logoutput
+  
+  
+Issues resolved in 4.0.8:
+
+   27817 - Bundled apache2 uses large file offsets
+
+
+Issues resolved in 4.0.7:
+
+   27493 - Fix sample obj.conf
+   27377 - Apache consumes 100% CPU
+
+
+Issues resolved in 4.0.6:
+
+   27004 - Dispatcher: CQ login fails with FF/IE on 5.2.1
+
+
+Issues resolved in 4.0.5:
+
+   25207 - Requesting a URL that maps to an existing directory returns 403
+   25010 - Dispatcher: Blocks Vanity URLs Through Folders
+   25169 - Support flush on every write
+   24777 - Compile dispatcher 4.0.4 for Apache 2.2 on macosx 64bit
+   23726 - Enable automated configuration of dispatcher instances for cloud management
+   24324 - Log a warning on illegal numbers in configuration
+   24042 - gzip-compression no longer works
+  
+  
+Issues resolved in 4.0.4:
+
+   22795 - Dispatcher: Segmentation Fault Upon Flush Replication
+   22656 - Change status code from 500 to 502 in case of a connect error
+   18012 - Support for iPlanet dispatcher module 64 bit for Solaris Sparc
+   22875 - Make render unavailable also for 503 status code
+   22876 - Set http Via header to respect http/1.1 spec
+   23086 - Make cookie's domain configurable for /stickyConnectionsFor
+   21223 - url probing
+
+
+Issues resolved in 4.0.3:
+
+   14273 - Support for Apache2 dispatcher module on x86_64 architecture for Solaris 10 and Linux
+   16358 - $include statement treats absolute paths relative
+   18353 - Permission sensitive caching : headers are not forwarded
+   18404 - Windows Dispatcher : filepath limited to 256 chars
+   20490 - Mac OS X WebDAV file operations fail
+   20585 - stickyConnectionsFor parameter raise a "entry not recognized" Warning at startup
+   20729 - Dispatcher sending wrong HTTP version when used with Server Side Include
+   21345 - Provide Dispatcher for Solaris i386 64 bit
+   21591 - Log messages are handed to ap_log_error() when log level is too small
+   22185 - Dispatcher needed for Apache 2.2 on Solarix x86
+
+
+Issues resolved in 4.0.2:
+
+   13610 - Http-Status-Code 50x not handed over to the Apache webserver
+   14169 - Support Apache 2.2
+   16255 - Permission sensitive caching enumerates wrong subkeys
+   16700 - Dispatcher incorrectly forward request for "/" to dispatcher
+   12374 - Forward authenticated user as request header
+   17024 - Dispatcher fault crashes IIS Worker Process
+   17511 - any dtd does not contain "allowedClients"
+   17677 - Dispatcher delivers error pages with standard expiration date
+   17692 - AuthChecker not contacted for cached files
+   18014 - invalidation of images and other page-attached files
+   18237 - Apache 2 (Linux x86_64) fails to load: Floating Point Exception
+   18483 - Endless Loop in Dispatcher if disk is full
+   19918 - Dispatcher delivers cached files regardless of Content-Encoding
+
+
+Issues resolved in 4.0.1:
+
+   11142 - Dispatcher encodes wrong characters
+   12979 - Dispatcher cache flush requests not closed with IIS 6
+   15273 - Compiler issue for dispatcher for Apache2 on AIX
+   15545 - SSO - IE cannot read session cookie provided by SiteMinder
+   15643 - Dispatcher caches URLs with JSessionID
+   15717 - httpd crashes when dispatcher flushes certain files
+   15726 - adding log rotation to the dispatcher configuration
+   15781 - Connection Resets During Dispatcher Flush Requests
+   15800 - Permission sensitive caching
+   15819 - Dispatcher drops persistent connections when spooling response
+   16074 - Syntaxchecking for Dispatcher Configuration
+
+
+Issues resolved in 4.0.0:
+
+   11357 - DirectoryIndex directive may block the dispatcher initialisa
+   14458 - Dispatcher: Respond to the HTTP Header Dispatcher: no_cache
+   14599 - SSI+Dispatcher combination may generate bad output
+   14839 - dispatcher doesn't flush page labeled with underscores
+   15400 - Chunked response may eat up CPU

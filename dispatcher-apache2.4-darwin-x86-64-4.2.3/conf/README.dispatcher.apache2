@@ -1,0 +1,166 @@
+quick guide how to install the apache-dispatcher
+--------------------------------------------------------------------------------
+
+1. install apache.
+2. install the dispatcher module 
+3. configure the httpd.conf
+4. configure the 'dispatcher.any'
+5. remove MultiViews option in dispatcher handled directories
+6. tips
+
+--------------------------------------------------------------------------------
+1. install apache
+
+   if you don't know how to do, read the INSTALL manual in the apache 
+   distribution. it is important, that you turn on dynamic modules support. this
+   can be done by use any of the --enable-shared option, or at least include the
+   mod_so module with the --enable-module=so option. read the INSTALL manual for
+   more detail.
+
+
+--------------------------------------------------------------------------------
+2. install the dispatcher module
+
+   the dispatcher module come as binary form for every supported platform. the
+   file has the following naming structure:
+     dispatcher_apache_xxxx_yyyy.so
+   where xxxx is the version number, and yyyy the target platform and version.
+   place the dispatcher module in your module directory which is usually the
+   $(APACHE_ROOT)/libexec directory. for easier handling, create a symbolic
+   link named 'mod_dispatcher.so' to the dispatcher module:
+   > ln -s dispatcher_apache_xxxx_yyyy.so mod_dispatcher.so
+
+--------------------------------------------------------------------------------
+3. configure the httpd.conf
+
+   please take also a look at the distributed httpd.conf.disp
+
+   to get the dispatcher module recognized by apache, you have to add it to the
+   modules section of the httpd.conf of apache.
+   
+     .
+     .   
+     # Example:
+     # LoadModule foo_module libexec/mod_foo.so
+     .
+     .
+     LoadModule dispatcher_module  libexec/mod_dispatcher.so
+   
+   then add some dispatcher configuariton tags:
+   
+     .
+     .
+     # configure the minimal setting for the dispatcher
+     # the main configuration is read from the 'DispatcherConfig' file.
+     #
+     <IfModule disp_apache2.c>
+       # location of the configuration file. eg: 'conf/dispatcher.any'
+       DispatcherConfig conf/dispatcher.any
+
+       # location of the dispatcher log file. eg: 'logs/dispatcher.log'
+       DispatcherLog    logs/dispatcher.log 
+  
+       # log level for the dispatcher log, can be either specified
+       # as a string or an integer (in parentheses)
+       # error(0): Errors
+       # warn(1):  Warnings
+       # info(2):  Infos
+       # debug(3): Debug
+       # trace(4): Trace
+       DispatcherLogLevel debug
+       
+       # if turned on, the dispatcher looks like a normal module
+       # since build 5210, this setting has no effect, since it used to crash
+       # apache if set to 0.
+       DispatcherNoServerHeader On
+  
+       # if turned on, request to / are not handled by the dispatcher
+       # use the mod_alias then for the correct mapping
+       DispatcherDeclineRoot Off
+     </IfModule>
+     .
+     .
+
+   now depeding of your needs, add the 'dispatcher-handler' to you appropriate
+   directory or location directive. the simplest case is just use the dispatcher
+   for the entire site, so just modify the / directory directive:
+
+     .
+     .
+     <Directory />
+
+       <IfModule disp_apache2.c>    
+         # enable dispatcher for ALL request. if this is too restrictive,     
+         # move it to another location
+         SetHandler dispatcher-handler
+       </IfModule>
+
+       Options FollowSymLinks
+       AllowOverride None
+     </Directory>
+     .
+     .
+
+--------------------------------------------------------------------------------
+4. configure dispatcher.any
+
+   place the dispatcher.any also in the conf directory, or wherever you 
+   configured it in the httpd.conf by the DispatcherConfig parameter. the 
+   dispatcher can handle serveral 'render-farms' which are addressable by the
+   hostname (virtual hosts). every 'farm' consists of one or more renders, over
+   which the load is balanced. you need at least 1 render per farm. for every
+   farm you must specify the load-balancing statistic criteria and an optional
+   caching configuration. please see the full dispatcher documentation for
+   details of this configuration. 
+   the following will just mention the minimal changes to the given 
+   dispatcher.any which have to be done to get the dispatcher running:
+   
+   1: adapt the hostname of the system where the render is running
+   2: adapt the port where the render is bound
+   3: configure the cachedirectory for this farm. please note, that this must be
+      the same as the 'DocumentRoot' in the httpd.conf and that the user which
+      runs the httpd must have read and write permissions.
+   
+   !!Please note, that since version 1.2, the dispatcher has a new config!!
+   
+      [...] 
+
+      /renders
+        {
+        /rend01
+          {
+[1]-->    /hostname "localhost"
+[2]-->    /port "80"
+          }
+        }
+      /cache
+        {
+[3]-->  /docroot "/opt/communique/dispatcher/cache"
+        
+      [...] 
+   
+--------------------------------------------------------------------------------
+5. remove MultiViews option in dispatcher handled directories
+
+   when a file is requested and its parent directory does not yet exist, the
+   negotation module returns a 403 (FORBIDDEN) before the dispatcher has the
+   opportunity to create the file and its parent directories. you should 
+   therefore disable the MultiViews option inside directories that are handled 
+   by the dispatcher.
+   
+--------------------------------------------------------------------------------
+6. tips
+
+   - on first installtion set the loglevel to 3
+   - after starting apache, consult the 'error_log' of apache and the 
+     'dispatcher_log' if apache and dispatcher started correctly.
+     the error_log should say something like:
+       [Thu May 30 05:16:36 2002] [notice] Apache/2.0.50 (Unix) configured
+     and the dispatcher_log something like:
+       [Fri Jan 19 17:22:16 2001] [I] [19096] Dispatcher initialized (build XXXX)
+   
+   - surf the website through the apache and look if everything looks fine
+   - take a look at the cachedirectory and check if it gets filled
+   - activate a page and check, if the cache gets flushed correctly.
+   - if everything looks fine, you can reduce the loglevel to 0 again
+    
