@@ -1,0 +1,188 @@
+======================================================================
+Dispatcher                                                07-Dec-2017
+
+RELEASE NOTE
+
+Version:       4.2.3
+
+Copyright 2001-2017 Adobe Systems Incorporated. All rights reserved.
+======================================================================
+
+
+0. Index
+----------------------------------------------------------------------
+1. Issues addressed in this build
+2. OpenSSL versions supported (Unix)
+3. Installation (IIS)
+4. Additional installation steps (IIS) for SSL
+5. Additional installation steps (IBM HTTP Server) for SSL
+6. Last release supporting Apache 2.2
+7. Mac OS X (Darwin) support
+8. Online documentation
+
+
+1. Issues addressed in this build
+----------------------------------------------------------------------
+
+Bugs:
+-----
+   DISP-660 - Invalidation request does not clear "jcr:content" folder
+   DISP-662 - Add filter rules to support We.Retail on publish
+   DISP-671 - Restarting the dispatcher leaks memory, eventually leading to an out of memory
+   DISP-672 - Items expired by TTL can be requested multiple times before recaching
+   DISP-673 - Re-Fetching feature fails to send "Server-Agent" header
+   DISP-674 - Dispatcher returns 200 for all ErrorDocuments if its cache is disabled
+   DISP-676 - Dispatcher removes Last-Modified header for uncached requests
+   DISP-680 - TTL files are not removed if AEM response does not contain cache-control header
+
+Improvements:
+-------------
+   DISP-652 - Dispatcher serves wrong Date header
+   DISP-657 - Buffer data to be sent over socket
+   DISP-658 - Change default config to allow clientlibs and woff2
+   DISP-661 - Dispatcher Logs: To be allowed to be separated to multiple tenants
+   DISP-678 - Allow request path elements in /cache section
+
+New Feature:
+------------
+
+
+2. OpenSSL versions supported (Unix)
+------------------------------------
+
+   SSL enabled dispatcher versions (indicated by a '-ssl-' in the
+   distribution package name) depend on the OpenSSL libraries
+   installed on your target machine. All OpenSSL versions 1.0.x
+   are supported, for more information see:
+
+   http://www.adobe.com/go/docs_dispatcher_install_en
+
+
+3. Installation (IIS)
+----------------------------------------------------------------------
+
+   Dispatcher 4.1.11 and later no longer supports Microsoft Internet
+   Information Server (IIS) 5.x or 6.0: 7.0 or higher is required.
+
+   Dispatcher no longer requires to be installed as an ISAPI filter. 
+   Instead, it should be installed like a wildcard application on a
+   site level.
+
+   In IIS 7.x:
+
+      1. Open IIS Manager and navigate to the site you want to manage.
+
+      2. In Features View, on the site Home page, double-click Handler
+         Mappings.
+
+      3. On the Handler Mappings page, in the Actions pane, click Add
+         Wildcard Script Map.
+
+      4. In the Executable box, type the full path or browse to the
+         disp_iis.dll that processes the request.
+
+      5. In the Name box, type a friendly name for the handler
+         mapping, e.g. CQ.
+
+      6. Click OK.
+
+      7. After you add a wildcard script map, you must add the
+         executable to the ISAPI and CGI Restrictions list to enable
+         it to run.
+
+   In IIS 8.x and IIS 10:
+
+      Follow the steps for IIS 7.x outlined above, then:
+
+      1. Select your added handler, click "Edit Script Map".
+
+      2. In the dialog, click on the button "Request Restrictions..."
+
+      3. On the "Mapping" tab, clear the chechbox "Invoke handler
+         only if request is mapped to:". This ensures that the
+         handler is also invoked for non-existing files or folders.
+
+      4. Click OK.
+
+
+4. Additional installation steps (IIS) for SSL
+----------------------------------------------------------------------
+
+   If you have a distribution package containing SSL support (indicated
+   by a '-ssl-' in the package name), you'll need to install some
+   additonal libraries:
+
+   1. Navigate to the following location in your browser:
+
+      https://www.openssl.org/community/binaries.html
+      
+   2. Follow links to download OpenSSL v1.0.1 or v1.0.2.
+
+      Note that www.openssl.org no longer provides binary distributions. To
+      obtain binaries you must either download them from a mirror site
+      or download the source code and follow instructions to build it.
+
+   3. When downloading from a mirror site, make sure it includes the dll files
+      "ssleay32.dll" and "libeay32.dll".
+      
+   4. Extract the the OpenSSL binaries "ssleay32.dll" and
+      "libeay32.dll" to the same location where you extracted the
+      dispatcher binary "disp_iis.dll" to.
+      
+
+5. Additional installation steps (IBM HTTP Server) for SSL
+----------------------------------------------------------------------
+
+   This information applies to IBM HTTP Server for the Windows
+   platform.  If you have a distribution package containing SSL
+   support (indicated by a '-ssl-' in the package name), you'll need 
+   to install some additonal libraries:
+
+   1. Navigate to the following location in your browser:
+
+      https://www.openssl.org/community/binaries.html
+      
+   2. Follow links to download OpenSSL v1.0.1 or v1.0.2.
+
+      Note that www.openssl.org no longer provides binaries distributions. To
+      obtain binaries you must either download them from a mirror site
+      or download the source code and follow instructions to build it.
+
+   3. When downloading from a mirror site, make sure it includes the dll files
+      "ssleay32.dll" and "libeay32.dll".
+      
+   4. Extract the the OpenSSL binaries "ssleay32.dll" and
+      "libeay32.dll" to the folder <ihs_install>/bin (where
+      <ihs_install> is IBM HTTP Server's installation folder).
+      
+
+6. Last release supporting Apache 2.2
+----------------------------------------------------------------------
+
+   Dispatcher version 4.2.3 is the last version supporting Apache 2.2.
+
+   Adobe will drop support for Apache 2.2 after December 2017, and
+   recommends to upgrade to Apache 2.4.
+
+   In case you stay with Apache 2.2 beyond December 2017, it is recommended
+   to use a Linux distribution that commits to Apache 2.2 security updates.
+
+   The last dispatcher release of 2017 for Apache 2.2 will still be
+   available for download until end of 2018.
+
+
+7. Mac OS X (Darwin) support
+----------------------------------------------------------------------
+
+   The Apache 2.4 Dispatcher module for Mac OS X is built against
+   the out of the box distribution available in Mac OS 10.11
+   (El Capitan). It will not work properly in Apache distributions
+   installed by brew or built from source.
+
+
+8. Online documentation
+----------------------------------------------------------------------
+
+   Online documentation for the dispatcher is available here:
+
+   http://www.adobe.com/go/docs_dispatcher_en
