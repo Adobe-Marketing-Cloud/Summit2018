@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:Folder"
+    comment="since CQ 5.6 - overrides the default configuration of the Granite Login Screen"
+    favicon="login/favicon.ico"
+    order="{Long}1000"
+    title="L729 - Adobe Summit"/>
