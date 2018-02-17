@@ -1,0 +1,14 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container>div {
+  margin: .5em;
+  font-size: 24px;
+  text-align: right;
+}
+
+.flex-container>div>img {
+  margin: 1em;
+}
