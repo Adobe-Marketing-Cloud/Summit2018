@@ -39,7 +39,43 @@
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <releaseRepository-Id>adobe-public-releases</releaseRepository-Id>
+        <releaseRepository-Name>Adobe Public Releases</releaseRepository-Name>
+        <releaseRepository-URL>https://repo.adobe.com/nexus/content/groups/public</releaseRepository-URL>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>adobe-public-releases</id>
+            <name>Adobe Public Repository</name>
+            <url>https://repo.adobe.com/nexus/content/groups/public</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>adobe-public-releases</id>
+            <name>Adobe Public Repository</name>
+            <url>https://repo.adobe.com/nexus/content/groups/public</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
+
+
 
     <build>
         <plugins>
@@ -180,7 +216,7 @@
                 <plugin>
                     <groupId>org.apache.sling</groupId>
                     <artifactId>htl-maven-plugin</artifactId>
-                    <version>1.0.6</version>
+                    <version>1.0.8</version>
                     <configuration>
                         <failOnWarnings>true</failOnWarnings>
                     </configuration>
@@ -409,6 +445,7 @@
                     </plugins>
                 </pluginManagement>
             </build>
+
         </profile>
 
         <profile>
@@ -501,6 +538,7 @@
                 <version>2.1</version>
                 <scope>provided</scope>
             </dependency>
+
             <!-- JCR -->
             <dependency>
                 <groupId>javax.jcr</groupId>
@@ -541,6 +579,7 @@
                 <version>1.4</version>
                 <scope>test</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 
