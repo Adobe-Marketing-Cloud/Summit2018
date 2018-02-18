@@ -1,0 +1,15 @@
+
+<p data-sly-use.event="com.adobe.acs.summit2018.lab730.core.models.event.EventModel" data-sly-unwrap>
+<div data-sly-test="${event.isValid}" class="flex-container">
+  <div>
+    <p><b>Name</b>: ${event.event.name}</p>
+    <p><b>Location</b>: ${event.event.location}</p>
+  </div>
+  <div>
+    <img src="${event.imageRef}" />
+  </div>
+</div>
+<p data-sly-test="${!event.isValid}">
+<div style="font-color:red">Please specify an event ID</div>
+</p>
+</p>

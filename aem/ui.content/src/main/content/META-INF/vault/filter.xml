@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/summit2018"/>
+    <filter root="/content/summit2018"/>
+    <filter root="/content/dam/summit2018"/>
+</workspaceFilter>
