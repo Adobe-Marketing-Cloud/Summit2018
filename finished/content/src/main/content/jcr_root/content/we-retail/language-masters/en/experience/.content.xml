@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content/>
+    <arctic-surfing-in-lofoten/>
+    <summit-success-in-the-himalayas/>
+    <climbing-on-kalymnos-island--greece/>
+    <running-at-the-great-wall-marathon/>
+    <skiing-deep-powder-in-siberia/>
+    <climbing-in-the-massif-du-mont-blanc/>
+    <summit-lab-724/>
+</jcr:root>
