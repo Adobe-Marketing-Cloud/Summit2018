@@ -6,7 +6,7 @@ This is the code and content package associated with Summit 2018 Lab 274.
 
 1. Follow the steps in Setup.
 1. Follow the Workbook, it's in the *materials* directory.
-1 Have fun!
+1. Have fun!
 
 ## Setup
 
