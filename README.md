@@ -39,7 +39,3 @@ The JSON View in the workbook screenshots was created using Chrome's JSON Viewer
 The *finished* directory contains all of the content and updated Java code created during Workbook activities. If you want to see the outputs, without doing the work, execute this command from the finished directory:
 
 > mvn clean install -PautoInstallPackage,autoInstallContentPackage
-
-
-
-
