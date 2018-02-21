@@ -94,7 +94,7 @@
                     <group>summit2018</group>
                     <embeddeds>
                         <embedded>
-                            <groupId>de.joerghoh.aem</groupId>
+                            <groupId>com.adobe.acs.summit2018.lab730</groupId>
                             <artifactId>summit2018.core</artifactId>
                             <target>/apps/summit2018/install</target>
                         </embedded>
@@ -109,7 +109,7 @@
     <!-- ====================================================================== -->
     <dependencies>
         <dependency>
-            <groupId>de.joerghoh.aem</groupId>
+            <groupId>com.adobe.acs.summit2018.lab730</groupId>
             <artifactId>summit2018.core</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>

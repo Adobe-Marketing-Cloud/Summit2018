@@ -90,7 +90,7 @@
         </dependency>
 
         <dependency>
-            <groupId>de.joerghoh.aem</groupId>
+            <groupId>com.adobe.acs.summit2018.lab730</groupId>
             <artifactId>summit2018.core</artifactId>
             <version>1.0-SNAPSHOT</version>
             <type>bundle</type>
