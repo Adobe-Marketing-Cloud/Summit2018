@@ -587,6 +587,8 @@ Now we'll update the Model which supports the **List Component** on the *API Pag
 1. Now that the code is updated, all that's left is to push it to AEM. Execute a build from the IntelliJ run menu. This should already be configured here:
 	![Build Code - Medium](images/build-code.png)
 
+### Activity 3 - Updated JSON
+
 1. In the browser, refresh the API page showing the JSON (Bookmark `API Page JSON`). It now lists the child page with some information.
 	![API List Json Update - Large](images/api-list-json-updated.png)
 
