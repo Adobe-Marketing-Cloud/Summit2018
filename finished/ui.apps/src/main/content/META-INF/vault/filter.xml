@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/headless-demo"/>
+    <filter root="/etc/packages/summit2018/summit-lab-724-collection.zip" />
+
+    <!-- Advanded Topics -->
+    <filter root="/conf/we-retail/settings/wcm/templates/api-page" />
+</workspaceFilter>

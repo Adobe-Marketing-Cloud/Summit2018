@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-02-12T17:02:22.666Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/we-retail/settings/wcm/templates/experience-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Summit Lab 724"
+        sling:resourceType="weretail/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2016-01-13T15:58:09.854+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="2016-01-13T15:58:50.877+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <content_fragment
+                    jcr:lastModified="{Date}2018-02-12T17:02:22.626Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="weretail/components/content/contentfragment"
+                    displayMode="multi"
+                    fragmentPath="/content/dam/we-retail/en/experiences/summit-lab-724/example-article-entry"
+                    text="                    Description                                            This is a really cool article about our shoes!            &#xa;&#xa;                        Subject/Keywords                                            we-retail:activity/hiking&#xa;we-retail:activity/running&#xa;we-retail:apparel/footwear&#xa;we-retail:gender/unisex&#xa;we-retail:season/summer            &#xa;&#xa;                        Author                                            Bryan Stopp            &#xa;&#xa;                        Published Date                                    2018-02-09 12:27                                    &#xa;&#xa;                        Body                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat feugiat faucibus. In vel orci nec orci ultricies ultricies. Donec feugiat interdum sem et convallis. Phasellus quis tellus quis ex consectetur vehicula a et ante. Fusce diam est, pretium a nibh vitae, gravida semper justo. Etiam non justo eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tincidunt non lorem et iaculis. Maecenas ac ipsum a justo consectetur ultrices. Nam vulputate risus sed turpis ullamcorper consequat. Pellentesque vitae dolor in nisi sagittis porta. Proin vel elit id magna consequat interdum ac in massa. Vivamus urna justo, ullamcorper dictum accumsan eu, maximus ac augue. Sed eleifend eu odio nec cursus. Ut aliquam tempor enim id pretium. Vestibulum porta hendrerit libero.&#xa;&#xa;Aliquam mi elit, faucibus ut nibh a, tristique sodales dui. Sed fringilla lobortis magna, at varius quam interdum tincidunt. Proin interdum nisl ut turpis feugiat efficitur. Aenean ac aliquam augue, sed ullamcorper quam. Nullam at dolor auctor, ullamcorper elit sed, blandit sem. Phasellus et orci sit amet sapien interdum elementum. Ut quis mauris efficitur, dignissim purus id, tristique dui.&#xa;&#xa;Sed at malesuada justo, nec porta dui. Vivamus sed ante a elit rutrum condimentum. Sed orci leo, hendrerit eget blandit vel, tristique quis tellus. Phasellus finibus elit non fringilla tristique. Fusce rhoncus odio augue, non sollicitudin orci sodales eget. Duis pulvinar nibh maximus dolor venenatis, nec fringilla ex suscipit. Ut consectetur nec urna vitae ullamcorper. Sed sed mi at purus malesuada scelerisque convallis lacinia enim. Curabitur pulvinar in ipsum sit amet scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&#xa;&#xa;Nulla facilisi. Nulla varius tortor nec libero dictum ultrices. Praesent quis fringilla odio. Curabitur vel feugiat lectus. Duis purus velit, tincidunt non nunc vitae, condimentum ultrices eros. Nam rhoncus sodales leo at vehicula. Cras dapibus imperdiet lectus suscipit euismod.&#xa;&#xa;&#xa;&#xa;">
+                    <par1
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/responsivegrid"/>
+                </content_fragment>
+            </responsivegrid>
+            <hero_image
+                jcr:lastModified="{Date}2016-03-12T23:51:14.074+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="weretail/components/content/heroimage"
+                useFullWidth="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

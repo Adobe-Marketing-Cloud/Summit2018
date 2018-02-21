@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="2b8a57f7-e9f9-48b4-ae3e-2fb656ed915a">
+    <jcr:content
+        cq:name="example-article-entry"
+        cq:parentPath="/content/dam/we-retail/en/experiences/summit-lab-724"
+        jcr:lastModified="{Date}2018-02-08T18:15:19.826Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Example Article Entry"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-02-08T18:15:19.826Z">
+        <associated
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sling/collection">
+            <sling:members
+                jcr:primaryType="nt:unstructured"
+                sling:resources="[/content/dam/collections/public/8/8icg3ur0zfOfFwPiKyY5/summit_lab_724]">
+                <summit_lab_724
+                    jcr:primaryType="nt:unstructured"
+                    sling:resource="/content/dam/collections/public/8/8icg3ur0zfOfFwPiKyY5/summit_lab_724"/>
+            </sling:members>
+        </associated>
+        <data
+            cq:model="/conf/we-retail/settings/dam/cfm/models/article"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                author="Bryan Stopp"
+                author_x0040_LastModified="{Date}2018-02-08T18:19:22.866Z"
+                body="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat feugiat faucibus. In vel orci nec orci ultricies ultricies. Donec feugiat interdum sem et convallis. Phasellus quis tellus quis ex consectetur vehicula a et ante. Fusce diam est, pretium a nibh vitae, gravida semper justo. Etiam non justo eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tincidunt non lorem et iaculis. Maecenas ac ipsum a justo consectetur ultrices. Nam vulputate risus sed turpis ullamcorper consequat. Pellentesque vitae dolor in nisi sagittis porta. Proin vel elit id magna consequat interdum ac in massa. Vivamus urna justo, ullamcorper dictum accumsan eu, maximus ac augue. Sed eleifend eu odio nec cursus. Ut aliquam tempor enim id pretium. Vestibulum porta hendrerit libero.&lt;/p>&#xa;&lt;p>Aliquam mi elit, faucibus ut nibh a, tristique sodales dui. Sed fringilla lobortis magna, at varius quam interdum tincidunt. Proin interdum nisl ut turpis feugiat efficitur. Aenean ac aliquam augue, sed ullamcorper quam. Nullam at dolor auctor, ullamcorper elit sed, blandit sem. Phasellus et orci sit amet sapien interdum elementum. Ut quis mauris efficitur, dignissim purus id, tristique dui.&lt;/p>&#xa;&lt;p>Sed at malesuada justo, nec porta dui. Vivamus sed ante a elit rutrum condimentum. Sed orci leo, hendrerit eget blandit vel, tristique quis tellus. Phasellus finibus elit non fringilla tristique. Fusce rhoncus odio augue, non sollicitudin orci sodales eget. Duis pulvinar nibh maximus dolor venenatis, nec fringilla ex suscipit. Ut consectetur nec urna vitae ullamcorper. Sed sed mi at purus malesuada scelerisque convallis lacinia enim. Curabitur pulvinar in ipsum sit amet scelerisque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p>&#xa;&lt;p>Nulla facilisi. Nulla varius tortor nec libero dictum ultrices. Praesent quis fringilla odio. Curabitur vel feugiat lectus. Duis purus velit, tincidunt non nunc vitae, condimentum ultrices eros. Nam rhoncus sodales leo at vehicula. Cras dapibus imperdiet lectus suscipit euismod.&lt;/p>&#xa;"
+                body_x0040_ContentType="text/html"
+                body_x0040_LastModified="{Date}2018-02-08T18:19:22.867Z"
+                description="This is a really cool article about our shoes!"
+                description_x0040_LastModified="{Date}2018-02-08T18:19:22.865Z"
+                keywords="[we-retail:activity/hiking,we-retail:activity/running,we-retail:apparel/footwear,we-retail:gender/unisex,we-retail:season/summer]"
+                keywords_x0040_LastModified="{Date}2018-02-08T18:19:22.865Z"
+                published="{Date}2018-02-09T12:27:00.000-05:00"
+                published_x0040_LastModified="{Date}2018-02-08T18:19:22.866Z"/>
+            <summary
+                jcr:primaryType="nt:unstructured"
+                author="Lab User"
+                author_x0040_LastModified="{Date}2018-02-08T18:15:19.773Z"
+                body="&lt;p>In vel orci nec orci ultricies ultricies. Donec feugiat interdum sem et convallis. Etiam non justo eros.&lt;/p>&#xa;&lt;p>Sed fringilla lobortis magna, at varius quam interdum tincidunt. Nullam at dolor auctor, ullamcorper elit sed, blandit sem.&lt;/p>&#xa;&lt;p>Sed at malesuada justo, nec porta dui. Vivamus sed ante a elit rutrum condimentum. Phasellus finibus elit non fringilla tristique. Ut consectetur nec urna vitae ullamcorper.&lt;/p>&#xa;&lt;p>Nulla facilisi. Curabitur vel feugiat lectus.&lt;/p>&#xa;"
+                body_x0040_ContentType="text/html"
+                body_x0040_LastModified="{Date}2018-02-08T18:15:19.774Z"
+                description="This is a really cool article about our shoes!"
+                description_x0040_LastModified="{Date}2018-02-08T18:15:19.771Z"
+                keywords="[we-retail:activity/hiking,we-retail:activity/running,we-retail:apparel/footwear,we-retail:gender/unisex,we-retail:season/summer]"
+                keywords_x0040_LastModified="{Date}2018-02-08T18:15:19.772Z"
+                published="{Date}2018-02-09T12:27:00.000-05:00"
+                published_x0040_LastModified="{Date}2018-02-08T18:15:19.774Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <summary
+                    jcr:description="Summary of the body."
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Summary"
+                    name="summary">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[description:f5cb0b00-0e7a-4bb3-aeca-50531a68184d,keywords:f5cb0b00-0e7a-4bb3-aeca-50531a68184d,author:f5cb0b00-0e7a-4bb3-aeca-50531a68184d,published:f5cb0b00-0e7a-4bb3-aeca-50531a68184d,body:f5cb0b00-0e7a-4bb3-aeca-50531a68184d]"/>
+                </summary>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

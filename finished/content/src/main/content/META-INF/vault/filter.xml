@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <!-- Experience Fragments -->
+    <filter root="/content/experience-fragments/we-retail/summit-lab-724" />
+    <filter root="/content/we-retail/language-masters/en/summit-lab-724" />
+
+    <!-- Content Fragments -->
+    <filter root="/content/dam/we-retail/jcr:content" />
+    <filter root="/conf/we-retail/settings/dam/cfm/models/article" />
+    <filter root="/etc/packages/summit2018/summit-lab-724-collection.zip" />
+
+    <filter root="/content/dam/we-retail/en/experience/summit-lab-724" />
+    <filter root="/content/we-retail/language-masters/en/experience/summit-lab-724" />
+    <filter root="/content/we-retail/language-masters/en/experience/api" />
+
+</workspaceFilter>
