@@ -42,7 +42,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="weretail/components/content/text"
-                    text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat ligula at tellus euismod, ut malesuada ipsum iaculis. Donec pellentesque elementum sollicitudin. Pellentesque ac lacus id libero ornare consectetur id sed augue. Aenean blandit tempus tellus, eu tristique massa fermentum sit amet. Aenean mi orci, viverra consectetur tellus sed, porttitor rhoncus lacus. Praesent consectetur porttitor diam sit amet ultrices. Nam et mauris non est vestibulum tempus sit amet non libero.&lt;/p>&#xa;&lt;p>Rumplestiltskin&lt;/p>&#xa;"
+                    text="&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat ligula at tellus euismod, ut malesuada ipsum iaculis. Donec pellentesque elementum sollicitudin. Pellentesque ac lacus id libero ornare consectetur id sed augue. Aenean blandit tempus tellus, eu tristique massa fermentum sit amet. Aenean mi orci, viverra consectetur tellus sed, porttitor rhoncus lacus. Praesent consectetur porttitor diam sit amet ultrices. Nam et mauris non est vestibulum tempus sit amet non libero.&lt;/p>&#xa;&lt;p>Rumpelstiltskin&lt;/p>&#xa;"
                     textIsRich="true">
                     <cq:responsive jcr:primaryType="nt:unstructured">
                         <default

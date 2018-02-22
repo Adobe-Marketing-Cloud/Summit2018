@@ -9,7 +9,7 @@
     <filter root="/conf/we-retail/settings/dam/cfm/models/article" />
     <filter root="/etc/packages/summit2018/summit-lab-724-collection.zip" />
 
-    <filter root="/content/dam/we-retail/en/experience/summit-lab-724" />
+    <filter root="/content/dam/we-retail/en/experiences/summit-lab-724" />
     <filter root="/content/we-retail/language-masters/en/experience/summit-lab-724" />
     <filter root="/content/we-retail/language-masters/en/experience/api" />
 
