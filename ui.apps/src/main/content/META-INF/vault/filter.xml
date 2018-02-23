@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/spa-demo"/>
+    <filter root="/conf/global/settings/dam" mode="merge"/>
+    <filter root="/conf/spa-demo"/>
+    <filter root="/conf/spa-demo/rep:policy"/>
+</workspaceFilter>

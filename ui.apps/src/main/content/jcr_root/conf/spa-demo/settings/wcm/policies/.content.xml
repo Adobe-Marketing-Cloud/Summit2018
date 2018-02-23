@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_1518134506865
+                        jcr:lastModified="{Date}2018-02-13T22:01:19.942-06:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Demo App Component Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        columns="1"
+                        components="[/libs/wcm/foundation/components/image,/libs/wcm/foundation/components/responsivegrid,/libs/wcm/foundation/components/text,/libs/wcm/foundation/components/title,group:spa-demo]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-02-09T05:34:33.450Z"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1518134506865>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+    <core
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="nt:unstructured">
+        <wcm
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="nt:unstructured">
+            <components
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="nt:unstructured">
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="nt:unstructured">
+                    <policy_1475741491582
+                        jcr:description=""
+                        jcr:lastModified="{Date}2016-10-06T10:11:49.934+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="title"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        defaultType="h2">
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </policy_1475741491582>
+                </title>
+            </components>
+        </wcm>
+    </core>
+    <weretail
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="nt:unstructured">
+        <components
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="nt:unstructured">
+            <structure
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="nt:unstructured">
+                <page
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="nt:unstructured">
+                    <policy_1518134306246
+                        jcr:lastModified="{Date}2018-02-09T01:13:47.828Z"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Demo App Policy"
+                        sling:resourceType="wcm/core/components/policy/policy">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-02-09T01:14:00.451Z"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1518134306246>
+                </page>
+            </structure>
+            <content
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="nt:unstructured">
+                <breadcrumb
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="nt:unstructured">
+                    <we-retail-experience-page
+                        jcr:description="Policy for breadcrumb on experience pages"
+                        jcr:lastModified="{Date}2016-03-03T18:52:44.719+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="We.Retail Experience Page Breadcrumb"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        hideCurrent="true"
+                        startLevel="3"/>
+                    <we-retail-product-page
+                        jcr:description="Policy for breadcrumb on product pages"
+                        jcr:lastModified="{Date}2016-09-16T15:03:54.572+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="We.Retail Product Page Breadcrumb"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        hideCurrent="true"
+                        startLevel="5">
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </we-retail-product-page>
+                </breadcrumb>
+                <title
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="nt:unstructured">
+                    <we-retail-hero-page
+                        jcr:description=""
+                        jcr:lastModified="{Date}2016-10-10T23:42:54.948+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="We.Retail Title policy - Hero Page"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        defaultType="h2">
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </we-retail-hero-page>
+                    <we-retial-section-page
+                        jcr:description=""
+                        jcr:lastModified="{Date}2016-10-10T17:23:17.909+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="We.Retail Title policy - Section Page"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        defaultType="h2">
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </we-retial-section-page>
+                </title>
+                <image jcr:primaryType="nt:unstructured">
+                    <policy_1490281316632
+                        jcr:lastModified="{Date}2017-03-23T16:52:07.565+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="We.Retail Default"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedRenditionWidths="[128,256,512,1024,1280,1440,1920,2048]"
+                        allowUpload="true">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <plugins jcr:primaryType="nt:unstructured">
+                            <crop
+                                jcr:primaryType="nt:unstructured"
+                                features="*">
+                                <aspectRatios jcr:primaryType="nt:unstructured">
+                                    <item0
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Wide Landscape"
+                                        ratio="0.6180"/>
+                                    <item1
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Landscape"
+                                        ratio="0.8284"/>
+                                    <item2
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Square"
+                                        ratio="1"/>
+                                    <item3
+                                        jcr:primaryType="nt:unstructured"
+                                        name="Portrait"
+                                        ratio="1.6180"/>
+                                </aspectRatios>
+                            </crop>
+                            <rotate
+                                jcr:primaryType="nt:unstructured"
+                                features="right"/>
+                            <flip
+                                jcr:primaryType="nt:unstructured"
+                                features="-"/>
+                        </plugins>
+                    </policy_1490281316632>
+                </image>
+                <categoryteaser jcr:primaryType="nt:unstructured">
+                    <policy_1492610142529
+                        jcr:lastModified="{Date}2017-04-20T16:06:08.451+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="We.Retail Default"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedRenditionWidths="[128,256,512,1024,1280,1440,1920,2048]"
+                        disableLazyLoading="true">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1492610142529>
+                </categoryteaser>
+                <categoryteaserimage jcr:primaryType="nt:unstructured">
+                    <policy_1492698986168
+                        jcr:lastModified="{Date}2017-04-20T16:36:47.151+02:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="We.Retail Default"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        allowedRenditionWidths="[128,256,512,1024,1280,1440,1920,2048]"
+                        allowUpload="true"
+                        disableLazyLoading="true">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1492698986168>
+                </categoryteaserimage>
+            </content>
+        </components>
+    </weretail>
+    <dam jcr:primaryType="nt:unstructured">
+        <cfm jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <contentfragment jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:lastModified="{Date}2017-02-28T15:32:53.518+01:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Content Fragment policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        cfm-grid-type="dam/cfm/components/grid"
+                        mmf-image-type="dam/cfm/components/mmimage">
+                        <jcr:content
+                            jcr:primaryType="nt:unstructured"
+                            mergeList="{Boolean}true"/>
+                    </default>
+                </contentfragment>
+            </components>
+        </cfm>
+    </dam>
+</jcr:root>

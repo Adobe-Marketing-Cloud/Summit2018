@@ -1,0 +1,4 @@
+#base=js
+require.js
+react.development.js
+react-dom.development.js

@@ -1,0 +1,2 @@
+#base=css
+news-app.css

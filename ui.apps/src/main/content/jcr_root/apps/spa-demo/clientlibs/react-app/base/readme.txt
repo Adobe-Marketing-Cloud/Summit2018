@@ -1,0 +1,1 @@
+This is the base react client library, which your application client library should include as a dependncy (via category react-base)

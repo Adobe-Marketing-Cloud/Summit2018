@@ -1,0 +1,4 @@
+#base=js
+ArticleView.jsx
+ArticleListView.jsx
+NewsApp.jsx

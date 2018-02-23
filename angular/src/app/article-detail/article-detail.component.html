@@ -1,0 +1,6 @@
+<div class="article-detail" *ngIf="article">
+    <h2>{{article.title}}</h2>
+    <i>{{article.author}} -- {{article.publishDate}}</i>
+    <span class="articleBody" [innerHtml]=article.body></span>
+</div>
+

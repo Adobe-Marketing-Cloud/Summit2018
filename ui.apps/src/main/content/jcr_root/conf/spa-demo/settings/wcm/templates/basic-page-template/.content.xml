@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Template"
+    allowedPaths="[/content(/.*)?]">
+    <jcr:content
+        cq:lastModified="{Date}2018-02-13T15:07:29.363-06:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2018-02-09T05:08:32.878Z"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
+        cq:templateType="/conf/spa-demo/settings/wcm/template-types/empty-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Basic Page Template"
+        status="enabled"/>
+</jcr:root>

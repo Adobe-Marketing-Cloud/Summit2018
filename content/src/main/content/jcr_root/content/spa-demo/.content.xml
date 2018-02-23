@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/spa-demo/settings/wcm/templates/basic-page-template,/conf/spa-demo/settings/wcm/templates/react-application]"
+        cq:lastModified="{Date}2018-02-09T05:41:35.972Z"
+        cq:lastModifiedBy="admin"
+        cq:siteOwner="admin"
+        cq:template="/conf/spa-demo/settings/wcm/templates/basic-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="SPA Demo"
+        jcr:uuid="bbf1c303-c342-4b6a-85ed-bae1403d4fd0"
+        sling:resourceType="weretail/components/structure/page"
+        navRoot="{Boolean}true"/>
+    <api/>
+    <tic-tac-toe/>
+</jcr:root>

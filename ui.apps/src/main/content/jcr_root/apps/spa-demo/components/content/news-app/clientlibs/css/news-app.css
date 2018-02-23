@@ -1,0 +1,39 @@
+.article {
+    margin-left: 5px;
+    padding: 0.75em 20px 0px 5px;
+    background-color: navy;
+    height: 3em;
+    border: solid 2px black;
+    border-right-width: 0px;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.article.selected {
+    background-color: white;   
+    border-color: black;
+}
+
+.article h3{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 1em;
+    line-height: 1em;
+}
+
+.article.selected h3 {
+    color: black;
+}
+
+.article-list {
+    float: left;
+    max-width: 33%;
+    min-width: 150px;
+    height: 100vh;
+    margin-right:5px;
+    background-color:black;
+}
