@@ -4,8 +4,9 @@ The following elements are supplied with the lab:
 
 - AEM 6.3.0 (http://localhost:4502) with default admin/admin authentication  
 - Custom application provided in [code/L729](code/L729)  
-- Eclipse (Java IDE)  
-- TextEditor
+- Atom (texteditor)
+
+Gist used during the lab: https://gist.github.com/heervisscher/df81cc26d6fce5d1f0441bbbfedf4fd3
 
 Outline of the lab:
 

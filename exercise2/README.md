@@ -15,21 +15,14 @@ First we deploy the supplied application, and specify the new loginscreen in the
 3. build and deploy the application via this command:  
 mvn clean install -PautoInstallPackage
 4. Go to http://localhost:4502/system/console/configMgr
-5. Search for Adobe Granite Login Selector Authentication Handler
+5. Search for 'Adobe Granite Login Selector Authentication Handler'
 6. In that configuration screen, set the following value for 'Default Login Page':
 /apps/L729/login
 7. Go to another browser and try the custom loginscreen (http://localhost:4502 would bring up the loginpage)
 
 NOTE: See the path changing in your browser from /libs to /apps
 
-## Customize the login screen
-
-Now you can customize it to your own needs.  
-NOTE: Make changes on your filesystem, then deploy it to your AEM-instance.
-
-The locations mentioned below are all within the code-project, in the ui.apps project:  
-L729/ui.apps/src/main/content/jcr_root  
-Content/descriptions are stored in .content.xml files  
+## Change the background images
 
 The images are stored at the location /apps/L729/login/clientlib/resources/bg/default, they are named to the resolution.
 Use the same image-names when you change the images, otherwise you need to change stylesheets as well.
@@ -37,6 +30,14 @@ Use the same image-names when you change the images, otherwise you need to chang
 For the desktop, use the following resolutions:
 - 2048x1536.jpg
 - 1280x768.jpg
+- 1024x710.jpg
+
+Once the images are replaced, you need to redeploy your application.
+When the application is redeployed, then you can reload the loginpage to see the new background image.
+
+## Customize the login screen
+
+Now you can customize it to your own needs.  
 
 Other things your can change:
 

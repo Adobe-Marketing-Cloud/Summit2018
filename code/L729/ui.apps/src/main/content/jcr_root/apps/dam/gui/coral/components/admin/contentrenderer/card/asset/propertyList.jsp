@@ -110,7 +110,7 @@ String checkedOutByFormatted = request.getAttribute(CHECKED_OUT_BY_FORMATTED) !=
 <%  if (resolution.length() > 0) {  %>
 <coral-card-property title="<%= xssAPI.encodeForHTMLAttr(i18n.get("resolution")) %>" data-width="<%= width%>"><%= xssAPI.encodeForHTML(resolution)%></coral-card-property>
 
-<!-- insert line here -->
+<!-- Lab 729 insert line here -->
 
 <% } %>
 <%

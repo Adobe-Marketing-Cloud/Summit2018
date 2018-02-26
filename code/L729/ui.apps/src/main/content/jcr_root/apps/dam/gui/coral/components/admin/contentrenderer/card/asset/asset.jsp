@@ -52,7 +52,7 @@ request.setAttribute("com.adobe.assets.meta.attributes", metaAttrs);
 
     <cq:include script = "../common/card-banner.jsp"/>
 
-    <!-- insert line here -->
+    <!-- Lab 729 insert line here -->
 
 	<cq:include script = "applicableRelationships.jsp"/>
 </coral-card>
