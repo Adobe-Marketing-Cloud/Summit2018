@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-02-09T05:43:02.991Z"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/spa-demo/settings/wcm/templates/basic-page-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="API"
+        sling:resourceType="weretail/components/structure/page">
+        <root
+            jcr:lastModified="{Date}2018-02-09T05:30:34.418Z"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2018-02-09T05:27:52.049Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-02-09T05:30:41.714Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <contentfragment
+                    jcr:created="{Date}2018-02-09T05:33:32.578Z"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2018-02-09T05:42:34.338Z"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="spa-demo/components/content/contentfragment"
+                    fragmentPath="/content/dam/spa-demo/en/articles/sample-article"
+                    variationName="master"/>
+            </responsivegrid>
+            <title
+                jcr:created="{Date}2018-02-09T05:29:13.946Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-02-09T05:32:57.784Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/title"/>
+            <text
+                jcr:created="{Date}2018-02-09T05:29:24.215Z"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-02-09T05:43:02.985Z"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/text"
+                text="&lt;p>This is the API page for the application&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="99eb87c7-b562-4ca9-9cc1-9e65463bbcba">
+    <jcr:content
+        cq:name="sample-article"
+        cq:parentPath="/content/dam/spa-demo/en/articles"
+        cq:versionCreator="admin"
+        jcr:lastModified="{Date}2018-01-31T19:47:48.459Z"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Sample Article"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2018-01-31T19:47:48.459Z">
+        <data
+            cq:model="/conf/spa-demo/settings/dam/cfm/models/article"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:primaryType="nt:unstructured"
+                author="Author"
+                author_x0040_LastModified="{Date}2018-01-31T20:48:53.913Z"
+                body="&lt;p>The screen and sound do the same sort of soft leather on the ear cups as soon as i zoom in the box is a micro usb cable — about how this works great for schools and businesses ready to go in 24 seconds when you power on. Tired automation overkill we rate * 1/10a complete failure in every way * 2/10sad ram and a full hard drives of any type of trauma cuisinart hoped to do away with pretending it now | amazon how we rate * 1/10a complete failure. The screen is glass magellan won me over with its wide temperature range with excellent control during brewing a pot in my own.&lt;/p>&#xa;&lt;p>Doubling the same direction to top loaded apps support up the command&amp;nbsp; things you can buy a big jump affiliate we earn yourself for some tough but the important than the older versions 1991 are too plebian. But it’s when it works on every instrument of article maker presents comes with it on thick keyboard usually don’t a lot going to screw. But it’s when it works on every instrument of article maker presents comes.&amp;nbsp;&lt;/p>&#xa;"
+                body_x0040_ContentType="text/html"
+                body_x0040_LastModified="{Date}2018-01-31T20:48:53.913Z"
+                description="Description"
+                description_x0040_LastModified="{Date}2018-01-31T20:48:53.912Z"
+                keywords="[we-retail:activity,we-retail:gender/women,we-retail:season/summer]"
+                keywords_x0040_LastModified="{Date}2018-01-31T20:48:53.913Z"
+                published="{Date}2018-01-16T14:47:00.000-05:00"
+                published_x0040_LastModified="{Date}2018-01-31T20:48:53.913Z"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-02-09T05:43:02.991Z"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Tic Tac Toe"
+        cq:template="spa-demo/templates/tic-tac-toe"
+        sling:resourceType="spa-demo/components/pages/tic-tac-toe-app">
+        <mainContent jcr:primaryType="nt:unstructured"
+                     sling:resourceType="wcm/foundation/components/parsys">
+            <tic-tac-toe jcr:primaryType="nt:unstructured"
+                         sling:resourceType="spa-demo/components/content/tic-tac-toe"/>
+        </mainContent>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>        
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,9 @@
+<div class="article-list">
+    <div *ngFor="let article of articles" 
+         class="article" 
+         [class.selected]="article === selectedArticle"
+         (click)="onSelect(article)">
+        <h3>{{article.title}}</h3>
+    </div>        
+</div>
+<app-article-detail [article]="selectedArticle"></app-article-detail>

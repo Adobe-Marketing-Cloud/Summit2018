@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2018-02-13T14:22:18.673-06:00"
+    jcr:createdBy="brobert"
+    jcr:description="Content for SPA Demo."
+    jcr:lastModified="{Date}2018-02-13T14:34:03.291-06:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    buildCount="1"
+    builtWith="Adobe Experience Manager-6.4.0"
+    group="Adobe ACS"
+    lastUnwrapped="{Date}2018-02-13T14:34:03.291-06:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2018-02-13T14:34:03.291-06:00"
+    lastWrappedBy="admin"
+    name="spa-demo.content"
+    subPackages="[adobe/consulting:acs-aem-commons-content:3.14.6]"
+    version="1.0.0-SNAPSHOT">
+</jcr:root>

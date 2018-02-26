@@ -1,0 +1,7 @@
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.css @ categories='react-news'}" data-sly-unwrap/>
+
+<h1>${properties.title}</h1>
+
+<div id="root" data-app-path="${properties['api-path']}"></div>
+
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientLib.js @ categories='react-news'}" data-sly-unwrap/>
