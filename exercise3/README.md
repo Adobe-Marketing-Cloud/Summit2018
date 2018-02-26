@@ -25,7 +25,7 @@ Of course you can do them also in your IDE, then deploy into AEM.
 
 1. Login to crx/de (http://localhost:4502/crx/de/index.jsp)
 2. Navigate to /apps/granite/ui/components/shell/help/about/about.jsp
-3. Between line 41 and 42, add the following line:
+3. Search for `<!-- Lab 729 insert line here -->`, replace it with the following line:
         `<p>Summit release: <%= version.getVersionInfo() %>	</p>`
 4. Save your changes
 5. Now look at the version pop-up (Help -> About screen), this now displays the version of the custom OSGi bundle.
@@ -39,11 +39,18 @@ Of course you can do them also in your IDE, then deploy into AEM.
 5. Check on the Help items in the author interface to see your changed item.
 6. If you want to change other items too, see the names in this location: /libs/granite/ui/content/shell/help/items
 
+## Hiding menu items (optional)
+
+For hiding menu items you can use the sling:hideResource method from the Sling Resource Merger.
+
+https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/sling-resource-merger.html
+
+
 ## Displaying more info on the assets-card
 
  1. Login to crx/de (http://localhost:4502/crx/de/index.jsp)
  2. Navigate to /apps/dam/gui/coral/components/admin/contentrenderer/card/asset/propertyList.jsp
- 3. At line 115, add the following line:  
+ 3. Search for `<!-- Lab 729 insert line here -->`, replace it with the following line:
  `<coral-card-property title="versioninfo">Version: <%= versionlabel %></coral-card-property>`  
  4. Save the changes, and see the displayed version info on the Assets-card
 
@@ -51,10 +58,10 @@ Of course you can do them also in your IDE, then deploy into AEM.
 
 1. Login to crx/de (http://localhost:4502/crx/de/index.jsp)
 2. Navigate to /apps/dam/gui/coral/components/admin/contentrenderer/card/asset/asset.jsp
-3. At line 53, add the following lines
+3. Search for `<!-- Lab 729 insert line here -->`, replace it with the following lines:
 
     `<coral-card-info>`  
       `<coral-tag color="red" class="u-coral-pullLeft">Expired</coral-tag>`  
     `</coral-card-info>`
 
-4. Save the changes, and see the Expired-status on the Assets-card
+4. Save the changes, now you see the Expired-status on the Assets-card

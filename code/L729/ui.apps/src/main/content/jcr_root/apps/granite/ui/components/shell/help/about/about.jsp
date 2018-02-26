@@ -39,7 +39,7 @@
     <coral-dialog-header><%= xssAPI.encodeForHTML(i18n.get("About {0}", "{0} is the product name, eg Adobe Experience Manager", productInfo.getName())) %></coral-dialog-header>
     <coral-dialog-content class="u-coral-noPadding-vertical">
         <p><%= xssAPI.encodeForHTML(productInfo.getName()) + " " + xssAPI.encodeForHTML(productInfo.getVersion().toString()) %></p>
-        <!-- insert line -->
+        <!-- Lab 729 insert line here -->
         <p><%= xssAPI.filterHTML(i18n.get("Copyright &#169; {0} Adobe Systems Incorporated and its licensors. ", "{0} is the product year", productInfo.getYear())) %></p>
         <p><%= xssAPI.encodeForHTML(i18n.get("Adobe, the Adobe logo and {0} are either registered or trademarks of Adobe Systems Incorporated in the United States and/or other countries. All other trademarks are the property of their respective owners.", "{0} is the product name, eg Adobe Experience Manager", productInfo.getName())) %></p>
         <p><%= xssAPI.filterHTML(i18n.get("Third Party notices, terms and conditions pertaining to third party software can be found at {0} and are incorporated by reference.", "{0} is the eula link", "<a class='coral-Link' target='_blank' href='http://www.adobe.com/products/eula/third_party/pdfs/adobe_products_eula.pdf'>http://www.adobe.com/products/eula/third_party/pdfs/adobe_products_eula.pdf</a>")) %></p>

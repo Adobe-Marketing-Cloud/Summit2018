@@ -19,3 +19,23 @@ You can change them like this:
 - Enabling your icons in primary: add Color to the value icon property. (for example adobeCampaign to adobeCampaignColor)
 - Changing the title: this is located in the text property
 - Changing the url: this is located in the href_i18n property
+
+## Displaying more info on the assets-card
+
+ 1. Login to crx/de (http://localhost:4502/crx/de/index.jsp)
+ 2. Navigate to /apps/dam/gui/coral/components/admin/contentrenderer/card/asset/propertyList.jsp
+ 3. At line 115, add the following line:  
+ `<coral-card-property title="versioninfo">Version: <%= versionlabel %></coral-card-property>`  
+ 4. Save the changes, and see the displayed version info on the Assets-card
+
+## Display status info on the assets-card
+
+1. Login to crx/de (http://localhost:4502/crx/de/index.jsp)
+2. Navigate to /apps/dam/gui/coral/components/admin/contentrenderer/card/asset/asset.jsp
+3. At line 53, add the following lines
+
+    `<coral-card-info>`  
+      `<coral-tag color="red" class="u-coral-pullLeft">Expired</coral-tag>`  
+    `</coral-card-info>`
+
+4. Save the changes, and see the Expired-status on the Assets-card
