@@ -44,24 +44,3 @@ Of course you can do them also in your IDE, then deploy into AEM.
 For hiding menu items you can use the sling:hideResource method from the Sling Resource Merger.
 
 https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/sling-resource-merger.html
-
-
-## Displaying more info on the assets-card
-
- 1. Login to crx/de (http://localhost:4502/crx/de/index.jsp)
- 2. Navigate to /apps/dam/gui/coral/components/admin/contentrenderer/card/asset/propertyList.jsp
- 3. Search for `<!-- Lab 729 insert line here -->`, replace it with the following line:
- `<coral-card-property title="versioninfo">Version: <%= versionlabel %></coral-card-property>`  
- 4. Save the changes, and see the displayed version info on the Assets-card
-
-## Display status info on the assets-card
-
-1. Login to crx/de (http://localhost:4502/crx/de/index.jsp)
-2. Navigate to /apps/dam/gui/coral/components/admin/contentrenderer/card/asset/asset.jsp
-3. Search for `<!-- Lab 729 insert line here -->`, replace it with the following lines:
-
-    `<coral-card-info>`  
-      `<coral-tag color="red" class="u-coral-pullLeft">Expired</coral-tag>`  
-    `</coral-card-info>`
-
-4. Save the changes, now you see the Expired-status on the Assets-card

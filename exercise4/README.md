@@ -24,7 +24,7 @@ You can change them like this:
 
  1. Login to crx/de (http://localhost:4502/crx/de/index.jsp)
  2. Navigate to /apps/dam/gui/coral/components/admin/contentrenderer/card/asset/propertyList.jsp
- 3. At line 115, add the following line:  
+ 3. Search for `<!-- Lab 729 insert line here -->`, replace it with the following line:
  `<coral-card-property title="versioninfo">Version: <%= versionlabel %></coral-card-property>`  
  4. Save the changes, and see the displayed version info on the Assets-card
 
@@ -32,7 +32,7 @@ You can change them like this:
 
 1. Login to crx/de (http://localhost:4502/crx/de/index.jsp)
 2. Navigate to /apps/dam/gui/coral/components/admin/contentrenderer/card/asset/asset.jsp
-3. At line 53, add the following lines
+3. Search for `<!-- Lab 729 insert line here -->`, replace it with the following lines:
 
     `<coral-card-info>`  
       `<coral-tag color="red" class="u-coral-pullLeft">Expired</coral-tag>`  

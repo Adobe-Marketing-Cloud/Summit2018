@@ -22,14 +22,7 @@ mvn clean install -PautoInstallPackage
 
 NOTE: See the path changing in your browser from /libs to /apps
 
-## Customize the login screen
-
-Now you can customize it to your own needs.  
-NOTE: Make changes on your filesystem, then deploy it to your AEM-instance.
-
-The locations mentioned below are all within the code-project, in the ui.apps project:  
-L729/ui.apps/src/main/content/jcr_root  
-Content/descriptions are stored in .content.xml files  
+## Change the background images
 
 The images are stored at the location /apps/L729/login/clientlib/resources/bg/default, they are named to the resolution.
 Use the same image-names when you change the images, otherwise you need to change stylesheets as well.
@@ -38,6 +31,13 @@ For the desktop, use the following resolutions:
 - 2048x1536.jpg
 - 1280x768.jpg
 - 1024x710.jpg
+
+Once the images are replaced, you need to redeploy your application.
+When the application is redeployed, then you can reload the loginpage to see the new background image.
+
+## Customize the login screen
+
+Now you can customize it to your own needs.  
 
 Other things your can change:
 
