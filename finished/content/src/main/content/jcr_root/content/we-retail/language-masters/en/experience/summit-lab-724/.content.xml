@@ -7,7 +7,8 @@
         cq:template="/conf/we-retail/settings/wcm/templates/experience-page"
         jcr:primaryType="cq:PageContent"
         jcr:title="Summit Lab 724"
-        sling:resourceType="weretail/components/structure/page">
+        sling:resourceType="weretail/components/structure/page"
+        hideInNav="true">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
