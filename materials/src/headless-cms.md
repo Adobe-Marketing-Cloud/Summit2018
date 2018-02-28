@@ -303,7 +303,9 @@ These steps enable creating Content Fragments Models and storing it in the We.Re
 
 1. Select the *Cloud Services* services tab and edit the **Cloud Configuration** property.
 
-1. Select the **We.Retail** configuration (or enter `/conf/we-retail` in the dialog).
+1. View that the **We.Retail** Conf is associated with this folder. 
+
+	The We.Retail folder has this configuration applied to support the We.Retail demo site. These steps are provided as a reference for customer specific implementations.
 	![Assets Conf Association - Medium](images/assets-conf-assn.png)
 
 1. *Save & Close* the configuration.
@@ -427,7 +429,7 @@ Fragment summarization allows authors to quickly create a copy of a content frag
 
 1. Click *Summarize* to accept the updates.
 
-1. Click on the *Full Screen Mode* button to toggle back to the Content Fragment View.
+1. Click on the *Full Screen Mode* button to toggle back to the Content Fragment View. (You may have to click on the Rich Text edit area to bring it into focus, to enable the menu buttons.)
 
 1. Click *Save* to save the variation. 
 

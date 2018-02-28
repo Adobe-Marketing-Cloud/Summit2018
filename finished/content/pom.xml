@@ -15,7 +15,7 @@
     <!-- P R O J E C T D E S C R I P T I O N -->
     <!-- ====================================================================== -->
 
-    <artifactId>headless-demo.content</artifactId>
+    <artifactId>headless-cms-demo.content</artifactId>
     <packaging>content-package</packaging>
     <name>Headless CMS Demo Content Package</name>
     <build>
