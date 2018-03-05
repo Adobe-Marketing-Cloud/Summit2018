@@ -1,0 +1,2213 @@
+{
+    "offset": 0,
+    "count": 6,
+    "total": 6,
+    "results": [
+        {
+            "name": {
+                "de": "El Gordo Dauenjacke",
+                "en": "El Gordo Down Jacket"
+            },
+            "masterVariantId": "526dc571-104f-40fb-b761-71781a97910b-2",
+            "description": {
+                "de": "Jacke",
+                "en": "jacket"
+            },
+            "lastModifiedDate": "2018-01-22T19:42:06.726Z",
+            "id": "526dc571-104f-40fb-b761-71781a97910b",
+            "categories": [
+                {
+                    "id": "743fd9df-6534-4962-85ab-6cc5e55635c7"
+                },
+                {
+                    "id": "4e9d5410-4ce5-457e-9c0a-a69346d302ac"
+                }
+            ],
+            "variantAxes": [
+                {
+                    "id": "color",
+                    "name": {
+                        "en": "Color"
+                    },
+                    "values": [
+                        {
+                            "value": "green",
+                            "name": {
+                                "de": "grün",
+                                "en": "green"
+                            }
+                        },
+                        {
+                            "value": "purple",
+                            "name": {
+                                "de": "lila",
+                                "en": "purple"
+                            }
+                        },
+                        {
+                            "value": "red",
+                            "name": {
+                                "en": "red",
+                                "de": "rot"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "size",
+                    "name": {
+                        "en": "Size"
+                    },
+                    "values": [
+                        {
+                            "value": "S",
+                            "name": {
+                                "en": "S"
+                            }
+                        },
+                        {
+                            "value": "M",
+                            "name": {
+                                "en": "M"
+                            }
+                        },
+                        {
+                            "value": "L",
+                            "name": {
+                                "en": "L"
+                            }
+                        },
+                        {
+                            "value": "XL",
+                            "name": {
+                                "en": "XL"
+                            }
+                        },
+                        {
+                            "value": "XS",
+                            "name": {
+                                "en": "XS"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "variants": [
+                {
+                    "sku": "meskwielt.1-s",
+                    "assets": [
+                        {
+                            "id": "meskwielt.1-s-eebwHdOz.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.1-s-eebwHdOz.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 11900
+                        },
+                        {
+                            "currency": "USD",
+                            "centAmount": 11000
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climates and conditions\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        },
+                        {
+                            "id": "colorFreeDefinition",
+                            "name": {
+                                "en": "Year"
+                            },
+                            "value": {
+                                "en": "2017"
+                            }
+                        },
+                        {
+                            "id": "designer",
+                            "name": {
+                                "en": "designer"
+                            },
+                            "value": {
+                                "en": "Patagonia"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-2",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "green"
+                        },
+                        {
+                            "id": "size",
+                            "value": "S"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.1-m",
+                    "assets": [
+                        {
+                            "id": "meskwielt.1-m-Yr0w-PSL.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.1-m-Yr0w-PSL.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 11900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        },
+                        {
+                            "id": "colorFreeDefinition",
+                            "name": {
+                                "en": "Year"
+                            },
+                            "value": {
+                                "en": "2017"
+                            }
+                        },
+                        {
+                            "id": "designer",
+                            "name": {
+                                "en": "designer"
+                            },
+                            "value": {
+                                "en": "Patagonia"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-3",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "green"
+                        },
+                        {
+                            "id": "size",
+                            "value": "M"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.1-l",
+                    "assets": [
+                        {
+                            "id": "meskwielt.1-l-Y9EqWggK.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.1-l-Y9EqWggK.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 13000
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        },
+                        {
+                            "id": "colorFreeDefinition",
+                            "name": {
+                                "en": "Year"
+                            },
+                            "value": {
+                                "en": "2017"
+                            }
+                        },
+                        {
+                            "id": "designer",
+                            "name": {
+                                "en": "designer"
+                            },
+                            "value": {
+                                "en": "Patagonia"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-4",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "green"
+                        },
+                        {
+                            "id": "size",
+                            "value": "L"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.1-xl",
+                    "assets": [
+                        {
+                            "id": "meskwielt.1-xl-2f13Ra7r.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.1-xl-2f13Ra7r.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 13000
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-5",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "green"
+                        },
+                        {
+                            "id": "size",
+                            "value": "XL"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.2-xs",
+                    "assets": [
+                        {
+                            "id": "meskwielt.2-xs-aNL1imZk.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.2-xs-aNL1imZk.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 11900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-6",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "purple"
+                        },
+                        {
+                            "id": "size",
+                            "value": "XS"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.2-s",
+                    "assets": [
+                        {
+                            "id": "meskwielt.2-s-9nQ0z6_l.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.2-s-9nQ0z6_l.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 11900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-7",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "purple"
+                        },
+                        {
+                            "id": "size",
+                            "value": "S"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.2-m",
+                    "assets": [
+                        {
+                            "id": "meskwielt.2-m-VIrYgr2t.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.2-m-VIrYgr2t.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 11900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-8",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "purple"
+                        },
+                        {
+                            "id": "size",
+                            "value": "M"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.2-l",
+                    "assets": [
+                        {
+                            "id": "meskwielt.2-l-uWuca8eH.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.2-l-uWuca8eH.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 13000
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-9",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "purple"
+                        },
+                        {
+                            "id": "size",
+                            "value": "L"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.2-xl",
+                    "assets": [
+                        {
+                            "id": "meskwielt.2-xl-HzWIbFyz.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.2-xl-HzWIbFyz.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 13000
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-10",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "purple"
+                        },
+                        {
+                            "id": "size",
+                            "value": "XL"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.3-xs",
+                    "assets": [
+                        {
+                            "id": "meskwielt.3-xs-phPRQ_sz.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.3-xs-phPRQ_sz.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 11900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-11",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "red"
+                        },
+                        {
+                            "id": "size",
+                            "value": "XS"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.3-s",
+                    "assets": [
+                        {
+                            "id": "meskwielt.3-s-RmdP2fbR.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.3-s-RmdP2fbR.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 11900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-12",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "red"
+                        },
+                        {
+                            "id": "size",
+                            "value": "S"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.3-m",
+                    "assets": [
+                        {
+                            "id": "meskwielt.3-m-D1J5YBAP.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.3-m-D1J5YBAP.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 11900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-13",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "red"
+                        },
+                        {
+                            "id": "size",
+                            "value": "M"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.3-l",
+                    "assets": [
+                        {
+                            "id": "meskwielt.3-l-mKLeIBkw.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.3-l-mKLeIBkw.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 13000
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-14",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "red"
+                        },
+                        {
+                            "id": "size",
+                            "value": "L"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.3-xl",
+                    "assets": [
+                        {
+                            "id": "meskwielt.3-xl-ubW4k1Fq.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.3-xl-ubW4k1Fq.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 13000
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-15",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "red"
+                        },
+                        {
+                            "id": "size",
+                            "value": "XL"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meskwielt.1-xs",
+                    "assets": [
+                        {
+                            "id": "El+Gordo+Red-tPj6M5W2.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/El+Gordo+Red-tPj6M5W2.jpg"
+                        },
+                        {
+                            "id": "El+Gordo+Purple-2Am2Nz0x.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/El+Gordo+Purple-2Am2Nz0x.jpg"
+                        },
+                        {
+                            "id": "meskwielt.1-s-eebwHd-ebqZzrsX.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meskwielt.1-s-eebwHd-ebqZzrsX.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 11900
+                        },
+                        {
+                            "currency": "USD",
+                            "centAmount": 10900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "With bigger channels and more fill, this extra toasty jacket is ideal as a midlayer or stand-alone in cold climes.\n\n<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\n</li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\n</li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood</li></ul>"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Sharp-looking, ripstop polyester shell, with a waterproof finish, blocks the wind and resists tears and abrasion\r\n<\\/li><li>Finer details include top-quality 800-fill-power goose down, a quilted-through construction, nylon-bound elastic cuffs and a drawcord hem\r\n<\\/li><li>Includes 2 zip hand pockets and 1 interior zip-secure pocket; removable hood<\\/li><\\/ul>"
+                            }
+                        },
+                        {
+                            "id": "colorFreeDefinition",
+                            "name": {
+                                "en": "Year"
+                            },
+                            "value": {
+                                "en": "2017"
+                            }
+                        },
+                        {
+                            "id": "designer",
+                            "name": {
+                                "en": "designer"
+                            },
+                            "value": {
+                                "en": "Patagonia"
+                            }
+                        }
+                    ],
+                    "id": "526dc571-104f-40fb-b761-71781a97910b-1",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "green"
+                        },
+                        {
+                            "id": "size",
+                            "value": "XS"
+                        }
+                    ]
+                }
+            ],
+            "createdDate": "2017-01-11T14:58:29.432Z"
+        },
+        {
+            "name": {
+                "en": "Portland Hooded Jacket"
+            },
+            "masterVariantId": "d8f5a333-61a0-46b6-8fd7-0f2dfc21a955-1",
+            "description": {
+                "en": "coat"
+            },
+            "lastModifiedDate": "2017-12-14T13:24:16.895Z",
+            "id": "d8f5a333-61a0-46b6-8fd7-0f2dfc21a955",
+            "categories": [
+                {
+                    "id": "743fd9df-6534-4962-85ab-6cc5e55635c7"
+                }
+            ],
+            "variantAxes": [
+                {
+                    "id": "color",
+                    "name": {
+                        "en": "Color"
+                    }
+                },
+                {
+                    "id": "size",
+                    "name": {
+                        "en": "Size"
+                    },
+                    "values": [
+                        {
+                            "value": "S",
+                            "name": {
+                                "en": "S"
+                            }
+                        },
+                        {
+                            "value": "M",
+                            "name": {
+                                "en": "M"
+                            }
+                        },
+                        {
+                            "value": "L",
+                            "name": {
+                                "en": "L"
+                            }
+                        },
+                        {
+                            "value": "XL",
+                            "name": {
+                                "en": "XL"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "variants": [
+                {
+                    "sku": "meotwipot-s",
+                    "assets": [
+                        {
+                            "id": "meotwipot-s-2DQNLxMa.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwipot-s-2DQNLxMa.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 5500
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "The Portland Hooded Jacket takes you from the office to the airport in style."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Cotton canvas exterior is lined with warm polyester fleece to take the chill out of a winter day\r\n<\\/li><li>Flip up the hood for protection against cool temperatures\r\n<\\/li><li>Full-zip front allows easy on and off; chin guard protects your skin<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "d8f5a333-61a0-46b6-8fd7-0f2dfc21a955-1",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "S"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meotwipot-m",
+                    "assets": [
+                        {
+                            "id": "meotwipot-m-chRlaDot.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwipot-m-chRlaDot.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 6500
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "The Portland Hooded Jacket takes you from the office to the airport in style."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Cotton canvas exterior is lined with warm polyester fleece to take the chill out of a winter day\r\n<\\/li><li>Flip up the hood for protection against cool temperatures\r\n<\\/li><li>Full-zip front allows easy on and off; chin guard protects your skin<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "d8f5a333-61a0-46b6-8fd7-0f2dfc21a955-2",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "M"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meotwipot-l",
+                    "assets": [
+                        {
+                            "id": "meotwipot-l-PHhtVdyk.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwipot-l-PHhtVdyk.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 10500
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "The Portland Hooded Jacket takes you from the office to the airport in style."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Cotton canvas exterior is lined with warm polyester fleece to take the chill out of a winter day\r\n<\\/li><li>Flip up the hood for protection against cool temperatures\r\n<\\/li><li>Full-zip front allows easy on and off; chin guard protects your skin<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "d8f5a333-61a0-46b6-8fd7-0f2dfc21a955-3",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "L"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meotwipot-xl",
+                    "assets": [
+                        {
+                            "id": "meotwipot-xl-r3TWU0yw.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwipot-xl-r3TWU0yw.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 7500
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "The Portland Hooded Jacket takes you from the office to the airport in style."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Cotton canvas exterior is lined with warm polyester fleece to take the chill out of a winter day\r\n<\\/li><li>Flip up the hood for protection against cool temperatures\r\n<\\/li><li>Full-zip front allows easy on and off; chin guard protects your skin<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "d8f5a333-61a0-46b6-8fd7-0f2dfc21a955-4",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "XL"
+                        }
+                    ]
+                }
+            ],
+            "createdDate": "2017-01-11T14:58:29.177Z"
+        },
+        {
+            "name": {
+                "en": "Sonja Insulated Jacket"
+            },
+            "masterVariantId": "a03a498e-c2ab-4043-a761-9e56962245b2-1",
+            "description": {
+                "en": "coat"
+            },
+            "lastModifiedDate": "2017-12-12T17:51:57.978Z",
+            "id": "a03a498e-c2ab-4043-a761-9e56962245b2",
+            "categories": [
+                {
+                    "id": "c41d3cb5-51a2-49c2-9733-bf03b0097bd1"
+                }
+            ],
+            "variantAxes": [
+                {
+                    "id": "color",
+                    "name": {
+                        "en": "Color"
+                    },
+                    "values": [
+                        {
+                            "value": "darkgreen",
+                            "name": {
+                                "en": "darkgreen"
+                            }
+                        },
+                        {
+                            "value": "purple",
+                            "name": {
+                                "en": "purple"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "size",
+                    "name": {
+                        "en": "Size"
+                    },
+                    "values": [
+                        {
+                            "value": "XS",
+                            "name": {
+                                "en": "XS"
+                            }
+                        },
+                        {
+                            "value": "S",
+                            "name": {
+                                "en": "S"
+                            }
+                        },
+                        {
+                            "value": "M",
+                            "name": {
+                                "en": "M"
+                            }
+                        },
+                        {
+                            "value": "L",
+                            "name": {
+                                "en": "L"
+                            }
+                        },
+                        {
+                            "value": "XL",
+                            "name": {
+                                "en": "XL"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "variants": [
+                {
+                    "sku": "wootwisot.1-xs",
+                    "assets": [
+                        {
+                            "id": "wootwisot.1-xs-5Kin0qvq.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/wootwisot.1-xs-5Kin0qvq.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 19900
+                        },
+                        {
+                            "currency": "USD",
+                            "centAmount": 17900,
+                            "country": "DE"
+                        },
+                        {
+                            "currency": "USD",
+                            "centAmount": 16900,
+                            "country": "RO"
+                        },
+                        {
+                            "currency": "USD",
+                            "centAmount": 15900
+                        },
+                        {
+                            "currency": "USD",
+                            "centAmount": 14900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Warm and waterproof mountain performance is enhanced with stylish accents like faux fur trim, for wear both on the mountain and après-ski."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Synthetic shell features waterproof, breathable coating; taped critical seams add weather protection\r\n<\\/li><li>Polyester insulation hoards warmth on the inside\r\n<\\/li><li>Integrated hood features removable faux fur trim for a dash of style\r\n<\\/li><li>Stretch inner cuffs with thumbholes add warmth and an extra barrier against snow entry<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "a03a498e-c2ab-4043-a761-9e56962245b2-1",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "darkgreen"
+                        },
+                        {
+                            "id": "size",
+                            "value": "XS"
+                        }
+                    ]
+                },
+                {
+                    "sku": "wootwisot.1-s",
+                    "assets": [
+                        {
+                            "id": "wootwisot.1-s-6lUvswgb.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/wootwisot.1-s-6lUvswgb.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 20900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Warm and waterproof mountain performance is enhanced with stylish accents like faux fur trim, for wear both on the mountain and après-ski."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Synthetic shell features waterproof, breathable coating; taped critical seams add weather protection\r\n<\\/li><li>Polyester insulation hoards warmth on the inside\r\n<\\/li><li>Integrated hood features removable faux fur trim for a dash of style\r\n<\\/li><li>Stretch inner cuffs with thumbholes add warmth and an extra barrier against snow entry<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "a03a498e-c2ab-4043-a761-9e56962245b2-2",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "darkgreen"
+                        },
+                        {
+                            "id": "size",
+                            "value": "S"
+                        }
+                    ]
+                },
+                {
+                    "sku": "wootwisot.1-m",
+                    "assets": [
+                        {
+                            "id": "wootwisot.1-m-swf3cS66.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/wootwisot.1-m-swf3cS66.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 18900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Warm and waterproof mountain performance is enhanced with stylish accents like faux fur trim, for wear both on the mountain and après-ski."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Synthetic shell features waterproof, breathable coating; taped critical seams add weather protection\r\n<\\/li><li>Polyester insulation hoards warmth on the inside\r\n<\\/li><li>Integrated hood features removable faux fur trim for a dash of style\r\n<\\/li><li>Stretch inner cuffs with thumbholes add warmth and an extra barrier against snow entry<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "a03a498e-c2ab-4043-a761-9e56962245b2-3",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "darkgreen"
+                        },
+                        {
+                            "id": "size",
+                            "value": "M"
+                        }
+                    ]
+                },
+                {
+                    "sku": "wootwisot.1-l",
+                    "assets": [
+                        {
+                            "id": "wootwisot.1-l-XzSuJe68.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/wootwisot.1-l-XzSuJe68.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 18900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Warm and waterproof mountain performance is enhanced with stylish accents like faux fur trim, for wear both on the mountain and après-ski."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Synthetic shell features waterproof, breathable coating; taped critical seams add weather protection\r\n<\\/li><li>Polyester insulation hoards warmth on the inside\r\n<\\/li><li>Integrated hood features removable faux fur trim for a dash of style\r\n<\\/li><li>Stretch inner cuffs with thumbholes add warmth and an extra barrier against snow entry<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "a03a498e-c2ab-4043-a761-9e56962245b2-4",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "darkgreen"
+                        },
+                        {
+                            "id": "size",
+                            "value": "L"
+                        }
+                    ]
+                },
+                {
+                    "sku": "wootwisot.1-xl",
+                    "assets": [
+                        {
+                            "id": "wootwisot.1-xl-2I4WZzgI.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/wootwisot.1-xl-2I4WZzgI.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 18900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Warm and waterproof mountain performance is enhanced with stylish accents like faux fur trim, for wear both on the mountain and après-ski."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Synthetic shell features waterproof, breathable coating; taped critical seams add weather protection\r\n<\\/li><li>Polyester insulation hoards warmth on the inside\r\n<\\/li><li>Integrated hood features removable faux fur trim for a dash of style\r\n<\\/li><li>Stretch inner cuffs with thumbholes add warmth and an extra barrier against snow entry<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "a03a498e-c2ab-4043-a761-9e56962245b2-5",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "darkgreen"
+                        },
+                        {
+                            "id": "size",
+                            "value": "XL"
+                        }
+                    ]
+                },
+                {
+                    "sku": "wootwisot.2-xs",
+                    "assets": [
+                        {
+                            "id": "wootwisot.2-xs-biZ7Lks1.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/wootwisot.2-xs-biZ7Lks1.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 18900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Warm and waterproof mountain performance is enhanced with stylish accents like faux fur trim, for wear both on the mountain and après-ski."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Synthetic shell features waterproof, breathable coating; taped critical seams add weather protection\r\n<\\/li><li>Polyester insulation hoards warmth on the inside\r\n<\\/li><li>Integrated hood features removable faux fur trim for a dash of style\r\n<\\/li><li>Stretch inner cuffs with thumbholes add warmth and an extra barrier against snow entry<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "a03a498e-c2ab-4043-a761-9e56962245b2-6",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "purple"
+                        },
+                        {
+                            "id": "size",
+                            "value": "XS"
+                        }
+                    ]
+                },
+                {
+                    "sku": "wootwisot.2-s",
+                    "assets": [
+                        {
+                            "id": "wootwisot.2-s-dXX1h6y7.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/wootwisot.2-s-dXX1h6y7.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 18900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Warm and waterproof mountain performance is enhanced with stylish accents like faux fur trim, for wear both on the mountain and après-ski."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Synthetic shell features waterproof, breathable coating; taped critical seams add weather protection\r\n<\\/li><li>Polyester insulation hoards warmth on the inside\r\n<\\/li><li>Integrated hood features removable faux fur trim for a dash of style\r\n<\\/li><li>Stretch inner cuffs with thumbholes add warmth and an extra barrier against snow entry<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "a03a498e-c2ab-4043-a761-9e56962245b2-7",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "purple"
+                        },
+                        {
+                            "id": "size",
+                            "value": "S"
+                        }
+                    ]
+                },
+                {
+                    "sku": "wootwisot.2-m",
+                    "assets": [
+                        {
+                            "id": "wootwisot.2-m-3SkHUvmT.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/wootwisot.2-m-3SkHUvmT.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 18900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Warm and waterproof mountain performance is enhanced with stylish accents like faux fur trim, for wear both on the mountain and après-ski."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Synthetic shell features waterproof, breathable coating; taped critical seams add weather protection\r\n<\\/li><li>Polyester insulation hoards warmth on the inside\r\n<\\/li><li>Integrated hood features removable faux fur trim for a dash of style\r\n<\\/li><li>Stretch inner cuffs with thumbholes add warmth and an extra barrier against snow entry<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "a03a498e-c2ab-4043-a761-9e56962245b2-8",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "purple"
+                        },
+                        {
+                            "id": "size",
+                            "value": "M"
+                        }
+                    ]
+                },
+                {
+                    "sku": "wootwisot.2-l",
+                    "assets": [
+                        {
+                            "id": "wootwisot.2-l-vGvZSz3-.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/wootwisot.2-l-vGvZSz3-.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 18900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Warm and waterproof mountain performance is enhanced with stylish accents like faux fur trim, for wear both on the mountain and après-ski."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Synthetic shell features waterproof, breathable coating; taped critical seams add weather protection\r\n<\\/li><li>Polyester insulation hoards warmth on the inside\r\n<\\/li><li>Integrated hood features removable faux fur trim for a dash of style\r\n<\\/li><li>Stretch inner cuffs with thumbholes add warmth and an extra barrier against snow entry<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "a03a498e-c2ab-4043-a761-9e56962245b2-9",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "purple"
+                        },
+                        {
+                            "id": "size",
+                            "value": "L"
+                        }
+                    ]
+                },
+                {
+                    "sku": "wootwisot.2-xl",
+                    "assets": [
+                        {
+                            "id": "wootwisot.2-xl-tovFjbEF.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/wootwisot.2-xl-tovFjbEF.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 18900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Warm and waterproof mountain performance is enhanced with stylish accents like faux fur trim, for wear both on the mountain and après-ski."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>Synthetic shell features waterproof, breathable coating; taped critical seams add weather protection\r\n<\\/li><li>Polyester insulation hoards warmth on the inside\r\n<\\/li><li>Integrated hood features removable faux fur trim for a dash of style\r\n<\\/li><li>Stretch inner cuffs with thumbholes add warmth and an extra barrier against snow entry<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "a03a498e-c2ab-4043-a761-9e56962245b2-10",
+                    "variantAttributes": [
+                        {
+                            "id": "color",
+                            "value": "purple"
+                        },
+                        {
+                            "id": "size",
+                            "value": "XL"
+                        }
+                    ]
+                }
+            ],
+            "createdDate": "2017-01-11T14:58:28.459Z"
+        },
+        {
+            "name": {
+                "en": "Slopeside Coat"
+            },
+            "masterVariantId": "f7abad9a-63e0-475e-bf69-66923cd183d1-1",
+            "description": {
+                "en": "coat"
+            },
+            "lastModifiedDate": "2017-03-09T20:17:51.497Z",
+            "id": "f7abad9a-63e0-475e-bf69-66923cd183d1",
+            "categories": [
+                {
+                    "id": "743fd9df-6534-4962-85ab-6cc5e55635c7"
+                }
+            ],
+            "variantAxes": [
+                {
+                    "id": "color",
+                    "name": {
+                        "en": "Color"
+                    }
+                },
+                {
+                    "id": "size",
+                    "name": {
+                        "en": "Size"
+                    },
+                    "values": [
+                        {
+                            "value": "XS",
+                            "name": {
+                                "en": "XS"
+                            }
+                        },
+                        {
+                            "value": "S",
+                            "name": {
+                                "en": "S"
+                            }
+                        },
+                        {
+                            "value": "M",
+                            "name": {
+                                "en": "M"
+                            }
+                        },
+                        {
+                            "value": "L",
+                            "name": {
+                                "en": "L"
+                            }
+                        },
+                        {
+                            "value": "XL",
+                            "name": {
+                                "en": "XL"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "variants": [
+                {
+                    "sku": "meotwislt-xs",
+                    "assets": [
+                        {
+                            "id": "meotwislt-xs-gD0cXGVl.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwislt-xs-gD0cXGVl.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 13900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "4-in-1 jacket creates options for changing conditions. Jacket sports a waterproof, breathable shell and an insulated, reversible liner jacket."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "\r\n<\\/li><li>\tWear the shell jacket and zip-in liner jacket together for maximum protection or wear either piece on its own as weather conditions warrant; liner is reversible\r\n<\\/li><li>\tQuilted liner jacket uses polyfiber insulation to keep you warm without inhibiting mobility\r\n<\\/li><li>\tLiner jacket features zippered handwarmer pockets and an internal security pocket"
+                            }
+                        }
+                    ],
+                    "id": "f7abad9a-63e0-475e-bf69-66923cd183d1-1",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "XS"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meotwislt-s",
+                    "assets": [
+                        {
+                            "id": "meotwislt-s-NzGeRQGL.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwislt-s-NzGeRQGL.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 13900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "4-in-1 jacket creates options for changing conditions. Jacket sports a waterproof, breathable shell and an insulated, reversible liner jacket."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "\r\n<\\/li><li>\tWear the shell jacket and zip-in liner jacket together for maximum protection or wear either piece on its own as weather conditions warrant; liner is reversible\r\n<\\/li><li>\tQuilted liner jacket uses polyfiber insulation to keep you warm without inhibiting mobility\r\n<\\/li><li>\tLiner jacket features zippered handwarmer pockets and an internal security pocket"
+                            }
+                        }
+                    ],
+                    "id": "f7abad9a-63e0-475e-bf69-66923cd183d1-2",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "S"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meotwislt-m",
+                    "assets": [
+                        {
+                            "id": "meotwislt-m-ZIO3yVV4.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwislt-m-ZIO3yVV4.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 13900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "4-in-1 jacket creates options for changing conditions. Jacket sports a waterproof, breathable shell and an insulated, reversible liner jacket."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "\r\n<\\/li><li>\tWear the shell jacket and zip-in liner jacket together for maximum protection or wear either piece on its own as weather conditions warrant; liner is reversible\r\n<\\/li><li>\tQuilted liner jacket uses polyfiber insulation to keep you warm without inhibiting mobility\r\n<\\/li><li>\tLiner jacket features zippered handwarmer pockets and an internal security pocket"
+                            }
+                        }
+                    ],
+                    "id": "f7abad9a-63e0-475e-bf69-66923cd183d1-3",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "M"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meotwislt-l",
+                    "assets": [
+                        {
+                            "id": "meotwislt-l-5xf3tDg4.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwislt-l-5xf3tDg4.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 13900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "4-in-1 jacket creates options for changing conditions. Jacket sports a waterproof, breathable shell and an insulated, reversible liner jacket."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "\r\n<\\/li><li>\tWear the shell jacket and zip-in liner jacket together for maximum protection or wear either piece on its own as weather conditions warrant; liner is reversible\r\n<\\/li><li>\tQuilted liner jacket uses polyfiber insulation to keep you warm without inhibiting mobility\r\n<\\/li><li>\tLiner jacket features zippered handwarmer pockets and an internal security pocket"
+                            }
+                        }
+                    ],
+                    "id": "f7abad9a-63e0-475e-bf69-66923cd183d1-4",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "L"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meotwislt-xl",
+                    "assets": [
+                        {
+                            "id": "meotwislt-xl-nCpMMJj9.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwislt-xl-nCpMMJj9.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 13900
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "4-in-1 jacket creates options for changing conditions. Jacket sports a waterproof, breathable shell and an insulated, reversible liner jacket."
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "\r\n<\\/li><li>\tWear the shell jacket and zip-in liner jacket together for maximum protection or wear either piece on its own as weather conditions warrant; liner is reversible\r\n<\\/li><li>\tQuilted liner jacket uses polyfiber insulation to keep you warm without inhibiting mobility\r\n<\\/li><li>\tLiner jacket features zippered handwarmer pockets and an internal security pocket"
+                            }
+                        }
+                    ],
+                    "id": "f7abad9a-63e0-475e-bf69-66923cd183d1-5",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "XL"
+                        }
+                    ]
+                }
+            ],
+            "createdDate": "2017-01-11T14:58:29.451Z"
+        },
+        {
+            "name": {
+                "en": "Cortech Sequoia XC Air Pants"
+            },
+            "masterVariantId": "2568360c-e31c-4197-9518-bcd8066c8e46-1",
+            "description": {
+                "en": "The Cortech Sequoia XC Air Pants are the summer companion piece to the Sequoia XC Jacket. The shell is constructed from a combination of Armor-Link 3 mesh, abrasion-resistant 600D rip stop Carbolex, and 1680D ballistic polyester. Stretch material abounds in the lower back, inseam and behind the knees to keep you more comfortable on those long days in the saddle. If the weatherman calls for wet conditions, the removable waterproof Rainguard liner keeps you dry and happy. When the sun comes out, take out the liner and enjoy the cooling air flowing through the mesh."
+            },
+            "lastModifiedDate": "2018-01-20T20:03:03.664Z",
+            "id": "2568360c-e31c-4197-9518-bcd8066c8e46",
+            "categories": [],
+            "variantAxes": [
+                {
+                    "id": "color",
+                    "name": {
+                        "en": "Color"
+                    }
+                },
+                {
+                    "id": "size",
+                    "name": {
+                        "en": "Size"
+                    }
+                }
+            ],
+            "variants": [
+                {
+                    "sku": "pants001-one-size",
+                    "assets": [
+                        {
+                            "id": "cortech_sequoia_xc_a-j6Qn5R-U.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/cortech_sequoia_xc_a-j6Qn5R-U.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 14399
+                        }
+                    ],
+                    "simpleAttributes": [],
+                    "id": "2568360c-e31c-4197-9518-bcd8066c8e46-1",
+                    "variantAttributes": []
+                }
+            ],
+            "createdDate": "2018-01-17T12:54:15.336Z"
+        },
+        {
+            "name": {
+                "de": "Zweireihiger Regenmantel",
+                "en": "Double Breasted Raincoat"
+            },
+            "masterVariantId": "9b159067-6cd2-462d-8b9a-c7e73ec0c338-1",
+            "description": {
+                "en": "coat",
+                "de": "Jacke"
+            },
+            "lastModifiedDate": "2017-11-10T20:21:20.318Z",
+            "id": "9b159067-6cd2-462d-8b9a-c7e73ec0c338",
+            "categories": [
+                {
+                    "id": "743fd9df-6534-4962-85ab-6cc5e55635c7"
+                }
+            ],
+            "variantAxes": [
+                {
+                    "id": "color",
+                    "name": {
+                        "en": "Color"
+                    }
+                },
+                {
+                    "id": "size",
+                    "name": {
+                        "en": "Size"
+                    },
+                    "values": [
+                        {
+                            "value": "S",
+                            "name": {
+                                "en": "S"
+                            }
+                        },
+                        {
+                            "value": "M",
+                            "name": {
+                                "en": "M"
+                            }
+                        },
+                        {
+                            "value": "L",
+                            "name": {
+                                "en": "L"
+                            }
+                        },
+                        {
+                            "value": "XL",
+                            "name": {
+                                "en": "XL"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "variants": [
+                {
+                    "sku": "meotwidot-s",
+                    "assets": [
+                        {
+                            "id": "meotwidot-s-Ql9ldmuO.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwidot-s-Ql9ldmuO.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 10500
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Our best selling Double Breasted Raincoat is now more waterproof, more breathable and more comfortable to wear!"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>All-season jacket is not only lightweight and compressible, but renowned for its water shedding, breathable performance and reliable comfort\r\n<\\/li><li>Features a 2.5-layer waterproof, breathable polyurethane coating; ceramic particles add durability, waterproof reliability, and improved  comfort\r\n<\\/li><li>100% taped seams seal out the elements<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "9b159067-6cd2-462d-8b9a-c7e73ec0c338-1",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "S"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meotwidot-m",
+                    "assets": [
+                        {
+                            "id": "meotwidot-m-CK5gg51M.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwidot-m-CK5gg51M.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 10500
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Our best selling Double Breasted Raincoat is now more waterproof, more breathable and more comfortable to wear!"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>All-season jacket is not only lightweight and compressible, but renowned for its water shedding, breathable performance and reliable comfort\r\n<\\/li><li>Features a 2.5-layer waterproof, breathable polyurethane coating; ceramic particles add durability, waterproof reliability, and improved  comfort\r\n<\\/li><li>100% taped seams seal out the elements<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "9b159067-6cd2-462d-8b9a-c7e73ec0c338-2",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "M"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meotwidot-l",
+                    "assets": [
+                        {
+                            "id": "meotwidot-l-qHW87Nwa.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwidot-l-qHW87Nwa.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 10500
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Our best selling Double Breasted Raincoat is now more waterproof, more breathable and more comfortable to wear!"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>All-season jacket is not only lightweight and compressible, but renowned for its water shedding, breathable performance and reliable comfort\r\n<\\/li><li>Features a 2.5-layer waterproof, breathable polyurethane coating; ceramic particles add durability, waterproof reliability, and improved  comfort\r\n<\\/li><li>100% taped seams seal out the elements<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "9b159067-6cd2-462d-8b9a-c7e73ec0c338-3",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "L"
+                        }
+                    ]
+                },
+                {
+                    "sku": "meotwidot-xl",
+                    "assets": [
+                        {
+                            "id": "meotwidot-xl-Yc1EDPya.jpg",
+                            "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/meotwidot-xl-Yc1EDPya.jpg"
+                        }
+                    ],
+                    "prices": [
+                        {
+                            "currency": "USD",
+                            "centAmount": 10500
+                        }
+                    ],
+                    "simpleAttributes": [
+                        {
+                            "id": "summary",
+                            "name": {
+                                "en": "Summary"
+                            },
+                            "value": {
+                                "en": "Our best selling Double Breasted Raincoat is now more waterproof, more breathable and more comfortable to wear!"
+                            }
+                        },
+                        {
+                            "id": "features",
+                            "name": {
+                                "en": "Features"
+                            },
+                            "value": {
+                                "en": "<ul><li>All-season jacket is not only lightweight and compressible, but renowned for its water shedding, breathable performance and reliable comfort\r\n<\\/li><li>Features a 2.5-layer waterproof, breathable polyurethane coating; ceramic particles add durability, waterproof reliability, and improved  comfort\r\n<\\/li><li>100% taped seams seal out the elements<\\/li><\\/ul>"
+                            }
+                        }
+                    ],
+                    "id": "9b159067-6cd2-462d-8b9a-c7e73ec0c338-4",
+                    "variantAttributes": [
+                        {
+                            "id": "size",
+                            "value": "XL"
+                        }
+                    ]
+                }
+            ],
+            "createdDate": "2017-01-11T14:58:29.188Z"
+        }
+    ]
+}
