@@ -10,6 +10,6 @@
         jcr:title="Fleet Shoe"
         sling:resourceType="cq/experience-fragments/components/experiencefragment"/>
     <master/>
-    <desktop/>
-    <mobile/>
+    <aem-sites/>
+    <mobile-app/>
 </jcr:root>
