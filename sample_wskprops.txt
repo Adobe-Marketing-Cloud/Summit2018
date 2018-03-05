@@ -1,3 +1,0 @@
-AUTH=
-APIHOST=runtime.adobe.io
-NAMESPACE=

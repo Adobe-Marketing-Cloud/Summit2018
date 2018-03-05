@@ -20,14 +20,14 @@ Exercise 4 - Integrate CIF Services with AEM
 2. Navigate to product page **El Gordo Down Jacket** (red t-shirt)
 
     Click on products
-    Click on Men's category
+    Click on **Men's** category
 
     Sample URL:
     ```ruby
     http://localhost:4502/content/we-retail/us/en/category.693b0fc5-7283-4673-a362-589d37fb7b73.html
     ```
 
-    Click on Amsterdam Short-Sleeve Travel Shirt
+    Click on **El Gordo Down Jacket**
         
     ```ruby
     http://localhost:4502/content/we-retail/us/en/product.meskwielt.1-s.html
