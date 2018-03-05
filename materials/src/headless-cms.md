@@ -32,14 +32,14 @@ In this lab:
 
 #### Definition
 
-*Experience Fragment* - An Experience Fragment (XF) allows authors to manage a set of associated content that can be published/consumed via different channels. Variations of the content can be created for different devices (mobile, desktop), different contexts (Facebook, Pintrest, Target), or languages.
+*Experience Fragment* - An Experience Fragment (XF) allows authors to manage a set of associated content that can be published/consumed via different channels. Variations of the content can be created for different devices (mobile app, sites), different contexts (Facebook, Pintrest, Target), or languages.
 
 #### Scenario
-We.Retail is unveiling a new Fleet running shoe. They want to create promotional teasers but they don't want to have to making authoring changes more than once for different devices, so they'll be using Experience Fragment & XF Building Blocks.
+We.Retail is unveiling a new Fleet running shoe. They want to create promotional teasers but they don't want to have to making authoring changes more than once for different contexts, so they'll be using Experience Fragments & XF Building Blocks.
 
    
 #### Activity 1 - Create XF
-These steps create the base Experience Fragment, which will contain the Building Block defintions.
+These steps create the base Experience Fragment, which will contain the Building Block defintion.
 
 1. Open AEM (http://localhost:4502)
 
@@ -133,9 +133,9 @@ Building block best practices:
 
 
 #### Activity 3 - Create XF Variations
-We now want to create variations of the XF, one for each of the different devices: desktop & mobile. We'll be following the Building Block best practices and using the block defined in Activity 2.
+We now want to create variations of the XF, one for each of the different use cases: AEM Sites & Mobile APp. We'll be following the Building Block best practices and using the block defined in Activity 2.
 
-##### Desktop Variation
+##### AEM Sites Variation
 1. Select the *Variations* drawer on the Sidebar. Ensure that the primary variation is selected (Named *Fleet Shoe*).
 
 1. Click *Create* -> *Variation*. 
@@ -143,7 +143,7 @@ We now want to create variations of the XF, one for each of the different device
 
 1. Fill out the dialog
 	* **Template**: We.Retail Experience Fragment Web Variation
-	* **Title**: Desktop
+	* **Title**: AEM Sites
 	![Variation Dialog - Medium](images/variation-dialog.png)
 
 1. Select the *Building Blocks* drawer on the Sidebar. 
@@ -165,12 +165,12 @@ We now want to create variations of the XF, one for each of the different device
 	![Adjust Link - Large](images/adjust-link.png)
 
 1. The final adjusted view should look like this:
-	![Desktop Experience Fragment View - Large](images/desktop-xf-view.png)
+	![Sites Experience Fragment View - Large](images/desktop-xf-view.png)
 
 1. Return to *Edit* mode.
 	![Edit Mode - Small](images/edit-mode.png)
 
-##### Mobile Variation
+##### Mobile App Variation
 
 1. Select the *Variations* drawer on the Sidebar. Ensure that the primary variation is selected (Named *Fleet Shoe*).
 	![Default Variation - Medium](images/default-variation.png)
@@ -179,7 +179,7 @@ We now want to create variations of the XF, one for each of the different device
 
 1. Fill out the dialog
 	* **Template**: We.Retail Experience Fragment Web Variation
-	* **Title**: Mobile
+	* **Title**: Mobile App
 
 1. Select the *Building Blocks* drawer on the Sidebar. Drag and drop the Fleet Shoe Promotion block onto the parsys.
 
@@ -209,7 +209,7 @@ We now want to create variations of the XF, one for each of the different device
 1. Select the *Assets* drawer on the Sidebar. Filter the type to *Experience Fragments*.
 	![Select Experience Fragment - Small](images/assets-xf-select.png)
 
-1. Drag and drop the Desktop XF previously created onto the page.
+1. Drag and drop the AEM Sites XF previously created onto the page.
 	![XF Drag & Drop - Large](images/xf-dragdrop.png)
 
 #### Activity 5 - Update XF 
@@ -223,7 +223,7 @@ An XF which contains building blocks is automatically updated when the original 
 
 1. Change the image in the image component, and update the text (Add `Rumpelstiltskin`)
 
-1. Select the **Desktop** or **Mobile** variation, the image and text will be updated.
+1. Select the **AEM Sites** or **Mobile App** variation, the image and text will be updated.
 	![Updated XF Content - Large](images/updated-xf-content.png)
 
 1. Switch to the Promotional Page tab (the one created in Activity 4, it should still be open).
