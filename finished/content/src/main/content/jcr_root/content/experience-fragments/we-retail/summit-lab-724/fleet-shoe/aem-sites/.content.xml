@@ -8,7 +8,7 @@
         cq:template="/conf/we-retail/settings/wcm/templates/experience-fragment-web-variation"
         cq:xfVariantType="web"
         jcr:primaryType="cq:PageContent"
-        jcr:title="Desktop"
+        jcr:title="AEM Sites"
         sling:resourceType="weretail/components/structure/xfpage">
         <root
             jcr:lastModified="{Date}2016-11-22T17:31:48.669+02:00"
@@ -16,7 +16,7 @@
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">
             <buildingblock
-                cq:masterBuildingBlockPath="/content/experience-fragments/summit-lab-724/fleet-shoe/master/jcr:content/root/image"
+                cq:masterBuildingBlockPath="/content/we-retail/experience-fragments/summit-lab-724/fleet-shoe/master/jcr:content/root/image"
                 jcr:created="{Date}2018-02-01T21:11:35.539Z"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2018-02-01T21:11:35.539Z"

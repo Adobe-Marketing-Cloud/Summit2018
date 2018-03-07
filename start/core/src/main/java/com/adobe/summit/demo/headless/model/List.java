@@ -17,7 +17,7 @@ import com.adobe.cq.export.json.ComponentExporter;
 import com.day.cq.wcm.api.Page;
 
 @Model(adaptables = { SlingHttpServletRequest.class, Resource.class },
-        adapters = { List.class})
+        adapters = { List.class })
 public class List {
 
     @Self
