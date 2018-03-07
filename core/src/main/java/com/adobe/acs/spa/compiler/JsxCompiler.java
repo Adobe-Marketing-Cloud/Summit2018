@@ -11,11 +11,15 @@ import com.adobe.granite.ui.clientlibs.script.ScriptResource;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.io.StringWriter;
 import java.io.Writer;
 import java.nio.charset.StandardCharsets;
+import java.text.MessageFormat;
 import java.util.Collection;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 import javax.script.Bindings;
 import javax.script.ScriptContext;
 import javax.script.ScriptEngine;
@@ -26,6 +30,8 @@ import org.apache.felix.scr.annotations.Activate;
 import org.apache.felix.scr.annotations.Component;
 import org.apache.felix.scr.annotations.Service;
 import org.osgi.framework.BundleContext;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Compile ES6/JSX to Javascript Relies on - babel.js for processing the content - Nashorn (requires Java 8 or later)
@@ -34,16 +40,26 @@ import org.osgi.framework.BundleContext;
 @Service(value = ScriptCompiler.class)
 public class JsxCompiler implements ScriptCompiler {
 
-    ScriptEngine babelEngine;
+    private static final transient Logger LOG = LoggerFactory.getLogger(JsxCompiler.class);
+
+    ExecutorService asyncInitOperations;
+    Future<ScriptEngine> babelEngine;
 
     @Activate
     public void activate(BundleContext context) throws ScriptException, IOException {
-        babelEngine = new ScriptEngineManager().getEngineByMimeType("text/javascript");
-        loadScript(babelEngine, "/patch/nashorn-polyfills.js");
-        loadScript(babelEngine, "/patch/es6-shim.js");
-        loadScript(babelEngine, "/babel/babel.js");
-        loadScript(babelEngine, "/react/react.development.js");
-        loadScript(babelEngine, "/react/react-dom.development.js");
+        asyncInitOperations = Executors.newSingleThreadExecutor();
+        babelEngine = asyncInitOperations.submit(() -> {
+            LOG.debug("Entering JSX Compiler init");
+            ScriptEngine engine = new ScriptEngineManager().getEngineByMimeType("text/javascript");
+            loadScript(engine, "/patch/nashorn-polyfills.js");
+            loadScript(engine, "/patch/es6-shim.js");
+            loadScript(engine, "/babel/babel.js");
+            loadScript(engine, "/react/react.development.js");
+            loadScript(engine, "/react/react-dom.development.js");
+            asyncInitOperations.shutdown();
+            LOG.debug("JSX Compiler init completed");
+            return engine;
+        });
     }
 
     /**
@@ -80,6 +96,7 @@ public class JsxCompiler implements ScriptCompiler {
     /**
      * {@inheritDoc}
      */
+    @Override
     public String getOutputExtension() {
         return "js";
     }
@@ -89,20 +106,39 @@ public class JsxCompiler implements ScriptCompiler {
      */
     @Override
     public void compile(Collection<ScriptResource> scriptResources, Writer writer, CompilerContext ctx) throws IOException {
+        String lastScript = "";
         try {
-            Bindings bindings = babelEngine.getBindings(ScriptContext.ENGINE_SCOPE);
-            //SimpleBindings bindings = new SimpleBindings();
-            for (ScriptResource res : scriptResources) {
-                String inputScript = IOUtils.toString(res.getReader());
-                bindings.put("input", inputScript);
-                //, plugins:['transform-es2015-modules-umd'] }
-                Object output = babelEngine.eval("Babel.transform(input, { presets: ['react', 'es2015']}).code", bindings);
-                if (output != null) {
-                    writer.append(String.valueOf(output));
+            synchronized (babelEngine) {
+                Bindings bindings = babelEngine.get().getBindings(ScriptContext.ENGINE_SCOPE);
+                for (ScriptResource res : scriptResources) {
+                    lastScript = res.getName();
+                    StringWriter outCatcher = new StringWriter();
+                    StringWriter errCatcher = new StringWriter();
+                    babelEngine.get().getContext().setErrorWriter(errCatcher);
+                    babelEngine.get().getContext().setWriter(outCatcher);
+
+                    String inputScript = IOUtils.toString(res.getReader());
+                    bindings.put("input", inputScript);
+                    //, plugins:['transform-es2015-modules-umd'] }
+                    Object output = babelEngine.get().eval("Babel.transform(input, { presets: ['react', 'es2015']}).code", bindings);
+                    if (output != null) {
+                        writer.append(String.valueOf(output));
+                    }
+
+                    if (outCatcher.getBuffer().length() > 0) {
+                        LOG.warn("Intecepted Babel output from script {0}", res.getName());
+                        LOG.warn(outCatcher.getBuffer().toString());
+                    }
+                    if (errCatcher.getBuffer().length() > 0) {
+                        LOG.error("Intecepted Babel error from script {0}", res.getName());
+                        LOG.error(errCatcher.getBuffer().toString());
+                    }
+                    babelEngine.get().getContext().setErrorWriter(null);
+                    babelEngine.get().getContext().setWriter(null);
                 }
             }
-        } catch (ScriptException ex) {
-            Logger.getLogger(JsxCompiler.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (ScriptException | InterruptedException | ExecutionException ex) {
+            LOG.error(MessageFormat.format("Exception occured during JSX compilation of {0}", lastScript), ex);
         }
     }
 
