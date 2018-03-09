@@ -2,7 +2,7 @@
 <img class="aem-logo"/>
 
 
-# Headless AEM - Beyond content repository
+# Headless AEM - Beyond the Browser
 
 Experience Manager's Content and Experience Fragments are powerful tools allowing content authors to create, manage and expose AEM content across channels. In this lab we focus on the latest enhancements to Content Fragments, Content Fragment Models and Experience Fragments. You'll leave this lab with a working sample of best-practice code/content for Content and Experience Fragments.
 
