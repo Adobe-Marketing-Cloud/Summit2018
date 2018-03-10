@@ -24,10 +24,10 @@ Outline of the lab:
 - Custom labels in your AEM instance
 - Display version info of your application
 - Modified Help-menu items
-- More info on the assets card
 
 ## [Exercise 4](exercise4)
 - Integrate Adobe Experience Cloud features
+- More info on the assets card
 
 ## [Exercise 5](exercise5)
 - Customized styling for packages
