@@ -35,8 +35,8 @@ When you want a more meaningful name of the packagename displayed
 When you want to have dependencies that your package relies on
 1. Open the pom.xml of the ui.apps application ($CODE/ui.apps/pom.xml)
 2. Go to the properties-section of the content-package-maven-plugin
-3. Add the following value: `<dependencies>test</dependencies>`
-4. In this case test is the dependency test
+3. Add the following value: `<dependencies>adobe/consulting:acs-aem-commons-content:3.13.0</dependencies>`
+4. In this case this is a dependency for ACS commons
 
 ## Custom Healthcheck
 
