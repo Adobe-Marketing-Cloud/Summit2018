@@ -3,7 +3,7 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 
 ## Objective
 
-![Image of ex1 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex1.png)  
+![Image of ex1 outcome](../Resources/ex1.png)  
 
 
 ## Tasks
@@ -13,7 +13,7 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 ```
 	
 1. Open Terminal.
-	![Image of terminal on desktop](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/Terminal.png)
+	![Image of terminal on desktop](../Resources/Terminal.png)
 
 2. Go to into a workspace (Example: If your workspace directory is *Desktop/l735*)
  	
@@ -96,7 +96,7 @@ Exercise 1 - Create a Adobe I/O Hello World Action
 		
 9. Overall outcome
 
-![Image of ex1 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex1.png)  
+![Image of ex1 outcome](../Resources/ex1.png)  
 
 	
 

@@ -2,7 +2,7 @@ Exercise 3 - Create a CIF Package with Action Sequence
 ========================================================
 
 ## Objective
-![Image of ex3 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex3.png)
+![Image of ex3 outcome](../Resources/ex3.png)
 
 ## Tasks
 
@@ -29,7 +29,7 @@ Exercise 3 - Create a CIF Package with Action Sequence
 3. Create a Action Sequence
 
 	```ruby
-    wsk action create seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts --sequence "getProductsService,seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/applyDiscount,webActionTransformer" --web true
+    wsk action create seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/getDiscountedProducts --sequence "commercetools-products-actions@latest/searchProductsService,seat-{YOUR_FIRSTNAME}-{YOUR_LASTNAME}/applyDiscount,commercetools-products-actions@latest/webActionTransformer" --web true
     ```
 
     Expected output
@@ -37,7 +37,15 @@ Exercise 3 - Create a CIF Package with Action Sequence
     ok: created action seat-X-X/getDiscountedProducts
     ```
     
-    Learn more about [web actions](https://github.com/apache/incubator-openwhisk/blob/master/docs/webactions.md)
+    The seqeunce uses two actions (`searchProductsService` & `webActionTransformer`) from the `commercetools-products-actions@latest` package. This package is already provided in the namespace.
+
+    You can run
+    ```ruby
+    wsk package get /summit2018-L735/commercetools-products-actions@latest
+    ```
+    to see which OpenWhisk actions are contained in that package.
+
+    Learn more about [packages](https://github.com/apache/incubator-openwhisk/blob/master/docs/packages.md) &  [web actions](https://github.com/apache/incubator-openwhisk/blob/master/docs/webactions.md)
 
 4. Check if the action sequence is created
 
@@ -52,9 +60,9 @@ Exercise 3 - Create a CIF Package with Action Sequence
     /summit2018-L735/seat-X-X/applyDiscount                                private nodejs:6
     /summit2018-L735/seat-X-X/hello-world                                  private nodejs:6
     /summit2018-L735/seat-X-X/getDiscountedProducts                        private sequence
-    /summit2018-L735/searchProducts                                        private sequence
-    /summit2018-L735/postShippingMethod                                    private sequence
-    /summit2018-L735/postPayment                                           private sequence
+    /summit2018-L735/commerce/searchProducts                               private sequence
+    /summit2018-L735/commerce/postShippingMethod                           private sequence
+    /summit2018-L735/commerce/postPayment                                  private sequence
     ...
     ```
 
@@ -75,9 +83,9 @@ Exercise 3 - Create a CIF Package with Action Sequence
        "exec": {
            "kind": "sequence",
            "components": [
-               "/summit2018-L735/getProductsService",
+               "/summit2018-L735/commercetools-products-actions@latest/searchProductsService",
                "/summit2018-L735/seat-X-X/applyDiscount",
-               "/summit2018-L735/webActionTransformer"
+               "/summit2018-L735/commercetools-products-actions@latest/webActionTransformer"
            ]
        },
        "annotations": [
@@ -102,9 +110,9 @@ Exercise 3 - Create a CIF Package with Action Sequence
            {
                "key": "_actions",
                "value": [
-                   "/summit2018-L735/getProductsService",
+                   "/summit2018-L735/commercetools-products-actions@latest/searchProductsService",
                    "/summit2018-L735/seat-X-X/applyDiscount",
-                   "/summit2018-L735/webActionTransformer"
+                   "/summit2018-L735/commercetools-products-actions@latest/webActionTransformer"
                ]
            }
        ],
@@ -133,7 +141,7 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 7. **Bonus**: Debug I/O Runtime actions
 
-    Run the OpenWhisk Cli to pool all action invocation messages
+    Run the OpenWhisk Cli to poll all action invocation messages
     ```ruby
     wsk activation poll
     ````
@@ -146,6 +154,6 @@ Exercise 3 - Create a CIF Package with Action Sequence
 
 8. Overall outcome
 
-![Image of ex3 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex3.png)  
+![Image of ex3 outcome](.../Resources/ex3.png)  
 
 

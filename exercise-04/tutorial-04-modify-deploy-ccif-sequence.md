@@ -2,7 +2,7 @@ Exercise 4 - Integrate CIF Services with AEM
 ============================================
 
 ## Objective
-![Image of ex4 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex4.png)
+![Image of ex4 outcome](../Resources/ex4.png)
 
 ## Tasks
 
@@ -39,10 +39,10 @@ Exercise 4 - Integrate CIF Services with AEM
 4. Instructor will update the sequence
 
     ```ruby
-    wsk action update searchProducts --sequence "getProductsService,seat-X-X/applyDiscount,webActionTransformer" --web true
+    wsk action update commerce/searchProducts --sequence "commercetools-products-actions@latest/searchProductsService,seat-X-X/applyDiscount,commercetools-products-actions@latest/webActionTransformer" --web true
     ```
     
-    updates the default **searchProduct** sequence to use our **applyDiscount** action from exercise 3.
+    updates the default **commerce/searchProduct** sequence to use our **applyDiscount** action from exercise 3.
 
 5. Refresh the product page
     
@@ -61,4 +61,4 @@ Exercise 4 - Integrate CIF Services with AEM
 
 6. Overall outcome
 
-    ![Image of ex4 outcome](https://github.com/Adobe-Marketing-Cloud/adobe-cif-extension-sample/blob/master/Resources/ex4.png)  
+    ![Image of ex4 outcome](../Resources/ex4.png)  
