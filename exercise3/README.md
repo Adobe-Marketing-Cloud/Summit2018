@@ -64,9 +64,11 @@ versioned-clientlibs
 
 The result is that you have two values: linkchecker, versioned-clientlibs
 
-Save and remove the dispatcher cache for "content"
+Save the change and remove the dispatcher cache for "content":
+- cd $DISP_CACHE
+- sudo rm -rf content
 
-If you inspect the same css file you see that a unique selector is added:
+When reloading the page and if you inspect the same css file you see that a unique selector is added:
 
 jquery-ui.55e3b0ded8a1a513834780d77a48063a.css
 

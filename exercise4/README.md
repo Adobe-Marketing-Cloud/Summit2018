@@ -78,6 +78,10 @@ RewriteRule ^/(.*)$ /content/we-retail/us/$1 [PT,L]
 
 More info on mod_rewrite: http://httpd.apache.org/docs/current/mod/mod_rewrite.html
 
+Now test the change, you see the following:
+- http://aem-publish.local/ points to the en-homepage
+
+
 ## Exercise 3
 
 For extension less urls go to this url on the publish:

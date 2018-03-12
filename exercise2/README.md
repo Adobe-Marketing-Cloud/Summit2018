@@ -16,11 +16,11 @@ Example of error:
 Filter rejects: GET /libs/granite/csrf/token.json HTTP/1.1
 
 Also look for errors in your browser console and spot differences between the site
-running on publish and on the dispatcher.
+running on publish (http://localhost:4503/content/we-retail/us/en.html) and on the dispatcher.
 
 Add rules for the errors you find to make the site runs smoothly.
 
-As a help here is a list of filters that we added:
+As a help here is a list of filters that we added in the dispatcher.any:
 
 `/0062 { /type "allow" /url "/libs/cq/personalization/*"  }  # enable personalization`  
 `/0063 { /type "allow" /url "/libs/granite/csrf/token.json"  } # enable CSRF`  

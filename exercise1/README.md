@@ -5,11 +5,7 @@ estimated time: 10 min
 ## Objectives:
 Know the status of the dispatcher
 
-With the following command you can check the status:
-
-apachectl status
-
-check the version of Apache:
+With the following command you can check the version of Apache:
 
 httpd -V
 
@@ -25,9 +21,9 @@ tail -f $AEM_PUBLISH/crx-quickstart/logs/access.log
 
 Now stop / start / restart the dispatcher
 
-* apachectl stop
-* apachectl start
-* apachectl restart
+* sudo apachectl stop
+* sudo apachectl start
+* sudo apachectl restart
 
 Via this url you can access the site via the dispatcher: http://aem-publish.local/content/we-retail/us/en.html
 
@@ -35,6 +31,6 @@ In the dispatcher logfile you can see the version, and which farms are used.
 
 With the following command you can check whether the configs are valid
 
-apachectl configtest
+sudo apachectl configtest
 
 Make a change in the dispatcher.any that is wrong, and check this via the configtest.
