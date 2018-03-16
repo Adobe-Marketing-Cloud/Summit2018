@@ -15,4 +15,4 @@ This session is for advanced developer audiences.
 * Ram Parthasarathy - Senior Product Manager, Adobe Target
 * Nimit Kumar - Senior Product Manager, Adobe Target
 
-## <center>[Start Lab Exercises](https://github.com/adobe-target/clientside/wiki/L749:-Server-Side-Personalization-Lab-at-Adobe-Summit-2018)</center>
+## <center>[Start Lab Exercises](https://github.com/adobe-target/serverside/wiki/L749:-Server-Side-Personalization-Lab-at-Adobe-Summit-2018)</center>
