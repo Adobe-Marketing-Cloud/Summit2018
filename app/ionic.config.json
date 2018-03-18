@@ -1,0 +1,8 @@
+{
+  "name": "summit-l731",
+  "app_id": "com.adobe.summit.l731",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

@@ -1,0 +1,52 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Product Details</ion-title>
+        <ion-buttons end>
+            <button ion-button class="rightButton">
+                <ion-icon></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="page-sme-detail" *ngIf="productDetails">
+    <ion-card class="product-card">
+        <img class="hero-img" src="{{getImage(productDetails.image.fileReference)}}" />
+        <div class="hero-title"><b>{{productDetails["jcr:title"] | uppercase}}</b></div>
+          <ion-list class="product-main">
+              <ion-item text-wrap>
+                  <ion-icon name="pricetag" item-start></ion-icon>
+                  <h3>Price</h3>
+                  <p class="big-font">${{productDetails.price}}</p>
+              </ion-item>
+              <ion-item text-wrap>
+                  <ion-icon name="list" item-start></ion-icon>
+                  <h3>Summary</h3>
+                  <p [innerHtml]="productDetails.summary"></p>
+              </ion-item>
+              <ion-item text-wrap>
+                  <ion-icon name="checkbox-outline" item-start></ion-icon>
+                  <h3>Features</h3>
+                  <p [innerHtml]="productDetails.features"></p>
+              </ion-item>
+              <ion-item text-wrap>
+                  <ion-icon name="star-outline" item-start ngFor=""></ion-icon>
+                  <h3>Rating</h3>
+                  <p>{{productDetails.rating}} out of 5</p>
+              </ion-item>
+              <ion-item text-wrap>
+                  <ion-icon name="chatbubbles" item-start></ion-icon>
+                  <h3>Reviews</h3>
+                  <p>{{productDetails.reviews}}</p>
+              </ion-item>
+              <ion-item text-wrap>
+                  <ion-icon name="cart" item-start></ion-icon>
+                  <h3>Available Inventory:</h3>
+                  <p>{{productDetails.inventory}}</p>
+              </ion-item>
+          </ion-list>
+    </ion-card>
+</ion-content>

@@ -1,0 +1,40 @@
+.page-faq{
+
+  background-image: url('../assets/images/home-background.png');
+  ion-header {
+    .toolbar-title {
+      font-weight: 200;
+    }
+    .rightButton ion-icon {
+      content: url('../assets/images/logo-login.png');
+      height: 25px;
+      width: 25px;
+    }
+  }
+
+  .hero-title {
+    text-align: center;
+    color: #3EBDC2;
+    font-weight: bolder;
+  }
+
+  ion-card-content {
+    position: relative;
+    text-align: left;
+  }
+
+  ion-item {
+    background-color: rgba(62,189,194,0.5);
+  }
+
+  .faq-answer {
+    background-color: rgba(62,189,194,0.25);
+    font-weight: bolder;
+  }
+
+  .faq-name {
+    font-weight: bolder;
+  }
+
+
+}

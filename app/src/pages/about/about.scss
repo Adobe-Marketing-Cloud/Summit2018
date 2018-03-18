@@ -1,0 +1,26 @@
+page-about {
+    background: url("../assets/images/home-background.png") no-repeat 0 0;
+
+  ion-header {
+    .toolbar-title {
+      font-weight: 200;
+    }
+    .rightButton ion-icon {
+      content: url('../assets/images/logo-login.png');
+      height: 25px;
+      width: 25px;
+    }
+  }
+
+    .about-content {
+        display: block;
+        width:363px;
+        height:582px;
+        margin:0 auto;
+        background-image: url("../assets/images/about-content.png");
+        margin-top: -75px;
+    }
+    .fixed-content {
+        margin-top:0 !important;
+    }
+}
