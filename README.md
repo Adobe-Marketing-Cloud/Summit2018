@@ -1,9 +1,19 @@
 # Adobe Summit 2018 Hands-On Lab L731
-Hybrid Phonegap Starter Kit built on Ionic &amp; AngularJS authenticating and consuming content from AEM Content Services
 
-Getting started with ionic & phonegap framework:
+In this lab you will learn how to use Adobe Experience Manager (AEM) as a headless CMS while reusing and exposing content to mobile applications. We will deep-dive into two major ways Adobe Experience Manager exposes data in a headless manner, allowing mobile apps to seamlessly consume content. We will also explore how Adobe Experience Manager Commerce Product data can easily be exposed to other systems in a headless fashion to create fluid experiences.
 
-## Setup
+Key takeaways:
+
+Use Content Services to build and deliver headless content in Adobe Experience Manager
+Use Sling Model Exporter to augment Adobe Experience Manager content for applying custom business-logic overlays and deliver it in a headless fashion
+Reuse and consume the content above in a mobile app to create a mobile-first experience for your customers built on AngularJS, Ionic, and PhoneGap
+
+## Works with
+
+* Adobe Experience Manager - 6.4 GA
+
+
+## How To Use
 
 1. Install [Node.js](https://nodejs.org/) & check the version.
 
