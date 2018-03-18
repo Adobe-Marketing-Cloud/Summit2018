@@ -4,9 +4,9 @@ In this lab you will learn how to use Adobe Experience Manager (AEM) as a headle
 
 Key takeaways:
 
-Use Content Services to build and deliver headless content in Adobe Experience Manager
-Use Sling Model Exporter to augment Adobe Experience Manager content for applying custom business-logic overlays and deliver it in a headless fashion
-Reuse and consume the content above in a mobile app to create a mobile-first experience for your customers built on AngularJS, Ionic, and PhoneGap
+* Use Content Services to build and deliver headless content in Adobe Experience Manager
+* Use Sling Model Exporter to augment Adobe Experience Manager content for applying custom business-logic overlays and deliver it in a headless fashion
+* Reuse and consume the content above in a mobile app to create a mobile-first experience for your customers built on AngularJS, Ionic, and PhoneGap
 
 ## Works with
 
