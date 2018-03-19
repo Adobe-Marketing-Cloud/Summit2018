@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="cq:Page">
+    <wcm jcr:primaryType="nt:unstructured">
+        <foundation jcr:primaryType="nt:unstructured">
+            <components jcr:primaryType="nt:unstructured">
+                <responsivegrid jcr:primaryType="nt:unstructured">
+                    <policy_1518573148342
+                        jcr:description="L731 API Template Policy for Content Services"
+                        jcr:lastModified="{Date}2018-02-13T20:53:44.688-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="L731 API Template Policy"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:Summit Lab L731,/apps/weretail/components/content/breadcrumb,/apps/weretail/components/content/categoryteaser,/apps/weretail/components/content/contentfragment,/apps/weretail/components/content/heroimage,/apps/weretail/components/content/image,/apps/weretail/components/content/button,/apps/weretail/components/structure/navigation,/apps/weretail/components/content/sitefeature,/apps/weretail/components/content/sharing,/apps/weretail/components/content/text,/apps/weretail/components/content/title]">
+                        <jcr:content
+                            cq:lastReplicated="{Date}2018-02-13T21:00:23.141-05:00"
+                            cq:lastReplicatedBy="admin"
+                            cq:lastReplicationAction="Activate"
+                            jcr:mixinTypes="[cq:ReplicationStatus]"
+                            jcr:primaryType="nt:unstructured"/>
+                    </policy_1518573148342>
+                </responsivegrid>
+            </components>
+        </foundation>
+    </wcm>
+</jcr:root>

@@ -1,0 +1,74 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+@font-face{
+	font-family: 'AdobeCleanLight';
+	src: url('../assets/fonts/AdobeClean-Light.eot');
+	src: url('../assets/fonts/AdobeClean-Light.eot?iefix') format('eot'),
+	     url('../assets/fonts/AdobeClean-Light.woff') format('woff'),
+	     url('../assets/fonts/AdobeClean-Light.ttf') format('truetype'),
+	     url('../assets/fonts/AdobeClean-Light.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'AdobeCleanRegular';
+	src: url('../assets/fonts/AdobeClean-Regular.eot');
+	src: url('../assets/fonts/AdobeClean-Regular.eot?iefix') format('eot'),
+	     url('../assets/fonts/AdobeClean-Regular.woff') format('woff'),
+	     url('../assets/fonts/AdobeClean-Regular.ttf') format('truetype'),
+	     url('../assets/fonts/AdobeClean-Regular.svg#webfont') format('svg');
+}
+@font-face{
+	font-family: 'AdobeCleanBold';
+	src: url('../assets/fonts/AdobeClean-Bold.eot');
+	src: url('../assets/fonts/AdobeClean-Bold.eot?iefix') format('eot'),
+	     url('../assets/fonts/AdobeClean-Bold.woff') format('woff'),
+	     url('../assets/fonts/AdobeClean-Bold.ttf') format('truetype'),
+	     url('../assets/fonts/AdobeClean-Bold.svg#webfont') format('svg');
+}
+body, ion-app.ios, ion-app.md {
+  font-family: "AdobeCleanLight", "Helvetica Neue", "Roboto", sans-serif;
+  background:transparent;
+}
+.toolbar-background-ios, .toolbar-background-md {
+ // background: transparent;
+}
+.bar-button-default-ios, .bar-button-default-md, .bar-button-default.bar-button-ios-default, .bar-button-default.bar-button-md-default, .bar-button-clear-ios-default, .bar-button-clear-md-default {
+  color:#3EBDC2;
+}
+.toolbar-title-ios, .toolbar-title-md {
+  font-family: 'AdobeCleanBold';
+}
+.logo-content-pages {
+  height:22px;
+  width:22px;
+  float:right;
+  margin-right:10px;
+}
+
+.button-default {
+  font-size: 1.75rem;
+  height: 4.5rem;
+  font-family: "AdobeCleanBold";
+}
+
+.fixed-content {
+  background: url('../assets/images/background-main.jpg') no-repeat 0 0;
+  height:100%;
+  width:100%;
+  overflow:hidden;
+  margin-top: 0 !important;
+  background-size: cover;
+}

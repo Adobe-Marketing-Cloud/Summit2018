@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/summit-l731"/>
+    <filter root="/apps/sling/servlet/errorhandler"/>
+    <filter root="/conf/summit-l731" mode="merge"/>
+    <filter root="/etc/clientlibs/summit-l731"/>
+    <filter root="/etc/designs/summit-l731">
+        <include pattern="/etc/designs/summit-l731/jcr:content"/>
+        <include pattern="/etc/designs/summit-l731/jcr:content/clientlibs"/>
+        <include pattern="/etc/designs/summit-l731/jcr:content/clientlibs/.*"/>
+    </filter>
+</workspaceFilter>

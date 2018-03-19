@@ -1,0 +1,36 @@
+
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>F A Q</ion-title>
+        <ion-buttons end>
+            <button ion-button class="rightButton">
+                <ion-icon></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="page-faq">
+    <ion-card class="faq-card">
+        <ion-card-title text-wrap class="hero-title">
+            <b>{{title | uppercase}}</b>
+        </ion-card-title>
+        <ion-card-content text-center class="hero-content">
+            <p [innerHtml]="text"></p>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-card *ngFor="let item of faqs">
+        <ion-item text-wrap (click)="toggleGroup(item)" [ngClass]="{active: isGroupShown(i)}">
+            <ion-icon item-start name="arrow-dropright" *ngIf="!isGroupShown(item)"></ion-icon>
+            <ion-icon item-start name="arrow-dropdown" *ngIf="isGroupShown(item)"></ion-icon>
+            <h2 class="faq-name">{{ item.faq["elements"]["question"]["value"] }}</h2>
+        </ion-item>
+        <ion-card-content class="faq-answer" *ngIf="isGroupShown(item)">
+            <p padding [innerHtml]="item.faq['elements']['answer']['value']"></p>
+        </ion-card-content>
+    </ion-card>
+</ion-content>

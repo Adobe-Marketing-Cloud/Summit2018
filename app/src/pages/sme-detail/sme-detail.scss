@@ -1,0 +1,59 @@
+.page-sme-detail{
+  background-image: url('../assets/images/home-background.png');
+  ion-header {
+    .toolbar-title {
+      font-weight: 200;
+    }
+    .rightButton ion-icon {
+      content: url('../assets/images/logo-login.png');
+      height: 25px;
+      width: 25px;
+    }
+  }
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .hero-title {
+    position: absolute;
+    top: 10%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+    padding:26px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+
+  .hero-img{
+    position: relative;
+  }
+
+  .product-card{
+    position: relative;
+  }
+  
+  .item {
+	  h3 {
+		  font-size: 1.7rem;
+		  font-weight: bold;
+	  }
+  }
+  
+  .big-font {
+	  font-size: 2.5rem;
+  }
+
+  h3 {
+    color: #3EBDC2;
+  }
+}
