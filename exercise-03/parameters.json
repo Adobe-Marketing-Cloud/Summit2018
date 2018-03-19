@@ -1,0 +1,338 @@
+{
+    "name": {
+        "en": "Bahamas Shorts"
+    },
+    "masterVariantId": "67d077fa-a711-42d9-9920-4c43c575af64-1",
+    "description": {
+        "en": "shorts"
+    },
+    "lastModifiedDate": "2017-03-16T20:48:05.088Z",
+    "id": "67d077fa-a711-42d9-9920-4c43c575af64",
+    "categories": [
+        {
+            "id": "30525d55-a07f-4654-9f48-032d762b73c3"
+        },
+        {
+            "id": "4e9d5410-4ce5-457e-9c0a-a69346d302ac"
+        }
+    ],
+    "variantAxes": [
+        {
+            "id": "color",
+            "name": {
+                "en": "Color"
+            }
+        },
+        {
+            "id": "size",
+            "name": {
+                "en": "Size"
+            },
+            "values": [
+                {
+                    "value": "XS",
+                    "name": {
+                        "en": "XS"
+                    }
+                },
+                {
+                    "value": "S",
+                    "name": {
+                        "en": "S"
+                    }
+                },
+                {
+                    "value": "M",
+                    "name": {
+                        "en": "M"
+                    }
+                },
+                {
+                    "value": "L",
+                    "name": {
+                        "en": "L"
+                    }
+                },
+                {
+                    "value": "XL",
+                    "name": {
+                        "en": "XL"
+                    }
+                }
+            ]
+        }
+    ],
+    "variants": [
+        {
+            "sku": "woswsubas-xs",
+            "assets": [
+                {
+                    "id": "woswsubas-xs-lsByvNC5.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-xs-lsByvNC5.jpg"
+                },
+                {
+                    "id": "woswsubas-xs-scgGrFzY.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-xs-scgGrFzY.jpg"
+                },
+                {
+                    "id": "woswsubas-xs-QkpLPlFc.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-xs-QkpLPlFc.jpg"
+                },
+                {
+                    "id": "woswsubas-xs-Phup21Po.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-xs-Phup21Po.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 3800
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "Lightweight plaid cotton adds a boost of trendsetting style to our favorite shorts. Chic and sporty for the beach and beyond, you won't find another pair of shorts with as much playful attitude"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Banded waist with belt loops.\r\n<\\/li><li>Button closure, zip fly.\r\n<\\/li><li>Flat front.\r\n<\\/li><li>Angled side pockets with slot pocket on one side.<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "67d077fa-a711-42d9-9920-4c43c575af64-1",
+            "variantAttributes": [
+                {
+                    "id": "size",
+                    "value": "XS"
+                }
+            ]
+        },
+        {
+            "sku": "woswsubas-s",
+            "assets": [
+                {
+                    "id": "woswsubas-s-fcwH2RS3.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-s-fcwH2RS3.jpg"
+                },
+                {
+                    "id": "woswsubas-s-M6VL8tEh.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-s-M6VL8tEh.jpg"
+                },
+                {
+                    "id": "woswsubas-s--VzgndWN.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-s--VzgndWN.jpg"
+                },
+                {
+                    "id": "woswsubas-s-S2hHgCgP.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-s-S2hHgCgP.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 3800
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "Lightweight plaid cotton adds a boost of trendsetting style to our favorite shorts. Chic and sporty for the beach and beyond, you won't find another pair of shorts with as much playful attitude"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Banded waist with belt loops.\r\n<\\/li><li>Button closure, zip fly.\r\n<\\/li><li>Flat front.\r\n<\\/li><li>Angled side pockets with slot pocket on one side.<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "67d077fa-a711-42d9-9920-4c43c575af64-2",
+            "variantAttributes": [
+                {
+                    "id": "size",
+                    "value": "S"
+                }
+            ]
+        },
+        {
+            "sku": "woswsubas-m",
+            "assets": [
+                {
+                    "id": "woswsubas-m-6sClrssN.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-m-6sClrssN.jpg"
+                },
+                {
+                    "id": "woswsubas-m-nPjg8amS.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-m-nPjg8amS.jpg"
+                },
+                {
+                    "id": "woswsubas-m-uO6dk0Rn.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-m-uO6dk0Rn.jpg"
+                },
+                {
+                    "id": "woswsubas-m-jKvWCwBM.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-m-jKvWCwBM.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 3800
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "Lightweight plaid cotton adds a boost of trendsetting style to our favorite shorts. Chic and sporty for the beach and beyond, you won't find another pair of shorts with as much playful attitude"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Banded waist with belt loops.\r\n<\\/li><li>Button closure, zip fly.\r\n<\\/li><li>Flat front.\r\n<\\/li><li>Angled side pockets with slot pocket on one side.<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "67d077fa-a711-42d9-9920-4c43c575af64-3",
+            "variantAttributes": [
+                {
+                    "id": "size",
+                    "value": "M"
+                }
+            ]
+        },
+        {
+            "sku": "woswsubas-l",
+            "assets": [
+                {
+                    "id": "woswsubas-l-n5m7SUsC.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-l-n5m7SUsC.jpg"
+                },
+                {
+                    "id": "woswsubas-l-PgKBRgIf.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-l-PgKBRgIf.jpg"
+                },
+                {
+                    "id": "woswsubas-l-ex25RyS5.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-l-ex25RyS5.jpg"
+                },
+                {
+                    "id": "woswsubas-l-BbbvDb89.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-l-BbbvDb89.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 3800
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "Lightweight plaid cotton adds a boost of trendsetting style to our favorite shorts. Chic and sporty for the beach and beyond, you won't find another pair of shorts with as much playful attitude"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Banded waist with belt loops.\r\n<\\/li><li>Button closure, zip fly.\r\n<\\/li><li>Flat front.\r\n<\\/li><li>Angled side pockets with slot pocket on one side.<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "67d077fa-a711-42d9-9920-4c43c575af64-4",
+            "variantAttributes": [
+                {
+                    "id": "size",
+                    "value": "L"
+                }
+            ]
+        },
+        {
+            "sku": "woswsubas-xl",
+            "assets": [
+                {
+                    "id": "woswsubas-xl-8j2G7gL5.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-xl-8j2G7gL5.jpg"
+                },
+                {
+                    "id": "woswsubas-xl-VY75dklc.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-xl-VY75dklc.jpg"
+                },
+                {
+                    "id": "woswsubas-xl-ywPg13go.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-xl-ywPg13go.jpg"
+                },
+                {
+                    "id": "woswsubas-xl--YgMirtm.jpg",
+                    "url": "https://59ecc1f6a208f42ebe11-ba27c79b8e149374ce80790cf798d65a.ssl.cf1.rackcdn.com/woswsubas-xl--YgMirtm.jpg"
+                }
+            ],
+            "prices": [
+                {
+                    "currency": "USD",
+                    "centAmount": 3800
+                }
+            ],
+            "simpleAttributes": [
+                {
+                    "id": "summary",
+                    "name": {
+                        "en": "Summary"
+                    },
+                    "value": {
+                        "en": "Lightweight plaid cotton adds a boost of trendsetting style to our favorite shorts. Chic and sporty for the beach and beyond, you won't find another pair of shorts with as much playful attitude"
+                    }
+                },
+                {
+                    "id": "features",
+                    "name": {
+                        "en": "Features"
+                    },
+                    "value": {
+                        "en": "<ul><li>Banded waist with belt loops.\r\n<\\/li><li>Button closure, zip fly.\r\n<\\/li><li>Flat front.\r\n<\\/li><li>Angled side pockets with slot pocket on one side.<\\/li><\\/ul>"
+                    }
+                }
+            ],
+            "id": "67d077fa-a711-42d9-9920-4c43c575af64-5",
+            "variantAttributes": [
+                {
+                    "id": "size",
+                    "value": "XL"
+                }
+            ]
+        }
+    ],
+    "createdDate": "2017-01-11T14:58:28.147Z"
+}
