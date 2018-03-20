@@ -1,4 +1,4 @@
-Exercise 2 - Creating your Project
+## Exercise 2 - Creating your Project
 
 ===========
 

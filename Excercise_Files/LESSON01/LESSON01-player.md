@@ -1,4 +1,4 @@
-Exercise 1 - Installing the Player
+## Exercise 1 - Installing the Player
 
 ===========
 
