@@ -10,7 +10,7 @@ This tutorial goes through key exercises to help you get started with AEM Screen
 
 --------
 
-##Sections##
+## Sections
 
 1 [Exercise 1 - Player Install](Excercise_Files/LESSON01/LESSON01-player.md)  
 
