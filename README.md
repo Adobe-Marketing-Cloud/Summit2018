@@ -18,8 +18,11 @@ Sections
 
 4 [Exercise 4 - Creating your Location](Excercise_Files/LESSON04/LESSON04-location.md)
 
-4 [Exercise 5 - Previewing your Display](Excercise_Files/LESSON05/LESSON05-preview-display.md)
+5 [Exercise 5 - Previewing your Display](Excercise_Files/LESSON05/LESSON05-preview-display.md)
 
-  
+6 [Exercise 6 - Update Offline Content](Excercise_Files/LESSON06/LESSON06-offline-content.md)
+
+5 [Exercise 5 - Previewing your Display](Excercise_Files/LESSON07/LESSON07-attach-player.md)
+
 
 
