@@ -22,7 +22,10 @@ Sections
 
 6 [Exercise 6 - Update Offline Content](Excercise_Files/LESSON06/LESSON06-offline-content.md)
 
-5 [Exercise 7 - Previewing your Display](Excercise_Files/LESSON07/LESSON07-attach-player.md)
+7 [Exercise 7 - Previewing your Display](Excercise_Files/LESSON07/LESSON07-attach-player.md)
 
+8 [Exercise 8 - Using an Interactive Application](Excercise_Files/LESSON08/LESSON08-applications.md)
+
+7 [Exercise 7 - Using the How to Uber Jar](Excercise_Files/LESSON09/LESSON09-howto.md)
 
 
