@@ -45,7 +45,7 @@ Create a Location - where you can associate your playlists to devices.
     -	The priority value should be 1
     -   Select the following events:  Initial Load, Idle Screen, Timer
     
- [!Channel Assignment](../../Resources/Picture25.png)
+ ![Channel Assignment](../../Resources/Picture25.png)
  
  8.  From Lab > Front of the Room> Primary Panel Dashboard, select the … menu from the Assigned Channels & Schedules module & Select Assign Channel.
      
@@ -54,7 +54,7 @@ Create a Location - where you can associate your playlists to devices.
      -	The priority value should be 2
      -	Select the following events: Timer
      -  Add the following schedule:  after 9:00 AM and before 10:00 AM
- [!Channel Assignment](../../Resources/Picture26.png)
+ ![Channel Assignment](../../Resources/Picture26.png)
  
  9. From Bar > Overhead > Primary Display Dashboard, select the … menu from the Assigned Channels & Schedules module & Select Assign Channel.
     
