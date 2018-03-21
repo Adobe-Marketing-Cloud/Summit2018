@@ -6,4 +6,4 @@ In this lesson, we will learn how to attach a phsyical screen player to a locati
 
 ## Tasks
 
-1. Install the package [L727-Screens-Apps.zip](../../Packages/L727-Screens-Apps.zip)
+1. Install the package [L727-Screen-Apps.zip](../../Packages/L727-Screen-Apps.zip)
