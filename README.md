@@ -7,8 +7,10 @@ Experience Manager Screens: Zero to personalized in 90 minutes
 ================================================
 
 This tutorial goes through key exercises to help you get started with AEM Screens.
-Sections
+
 --------
+
+##Sections##
 
 1 [Exercise 1 - Player Install](Excercise_Files/LESSON01/LESSON01-player.md)  
 
@@ -26,6 +28,6 @@ Sections
 
 8 [Exercise 8 - Using an Interactive Application](Excercise_Files/LESSON08/LESSON08-applications.md)
 
-7 [Exercise 7 - Using the How to Uber Jar](Excercise_Files/LESSON09/LESSON09-howto.md)
+7 [Exercise 7 - Using the How to sample package](Excercise_Files/LESSON09/LESSON09-howto.md)
 
 
