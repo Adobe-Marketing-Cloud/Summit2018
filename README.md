@@ -18,6 +18,7 @@ Sections
 
 4 [Exercise 4 - Creating your Location](Excercise_Files/LESSON04/LESSON04-location.md)
 
+4 [Exercise 5 - Previewing your Display](Excercise_Files/LESSON05/LESSON05-preview-display.md)
 
   
 
