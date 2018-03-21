@@ -22,7 +22,7 @@ Sections
 
 6 [Exercise 6 - Update Offline Content](Excercise_Files/LESSON06/LESSON06-offline-content.md)
 
-5 [Exercise 5 - Previewing your Display](Excercise_Files/LESSON07/LESSON07-attach-player.md)
+5 [Exercise 7 - Previewing your Display](Excercise_Files/LESSON07/LESSON07-attach-player.md)
 
 
 
