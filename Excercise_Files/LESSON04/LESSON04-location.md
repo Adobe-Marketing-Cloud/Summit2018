@@ -73,11 +73,20 @@ Create a Location - where you can associate your playlists to devices.
      
  11.  From Bar > Overhead > Primary Display Dashboard, select the … menu from the Assigned Channels & Schedules module & Select Assign Channel.  
       
-      -	Create a role called Marketing-Campaign
+      -	Create a role called Happy Hour
       -	The Channel Path should point to the marketing-campaign channel   /content/screens/summit-lab-2018/channels/las-vegas/lab/happy-hour
       -	The priority value should be 2
       -	Select the following events: Timer
       - Add the following schedule:  after 5:00PM and before 7:00PM   
-  ![Channel Assignment 2](../../Resources/Picture27.png)
+      
+ ![Channel Assignment 2](../../Resources/Picture27.png)
+  
+  12.  From Bar > Overhead > Primary Display Dashboard, select the … menu from the Assigned Channels & Schedules module & Select Assign Channel.  
+      
+ Then from the location dashboard, click on the … menu to the right of Device Details module & Select Add Device Config
+       
+ Create a new Device Config called Device 
+       
+ ![Device Config](../../Resources/Picture24.png)
       
   

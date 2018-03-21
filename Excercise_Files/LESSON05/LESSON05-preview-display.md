@@ -15,4 +15,5 @@ The URL should be --> http://localhost:4502/screens/dashboard/display.html/conte
 
 **NOTE**
 The preview Display opens the AEM Screens firmware via the browser.  It will have the same hidden menu’s on the top & bottom left.
+
 ![hidden menu](../../Resources/Picture30.png)

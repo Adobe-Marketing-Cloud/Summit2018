@@ -12,8 +12,12 @@ Install AEM Screens player
 
 ![Image of ex1 outcome](../../Resources/Picture1.png) 
 
-2.  Configuring AEM
+2.  Starting AEM Screens Player
 
+2.1  Double Click on the Screens Player app within Applications
+
+**Note**
+The AEM Screens player attempts to start in full screen mode.  To get out of full screen, simply hit the CTRL+Command+F        
 **Note**
 When starting AEM Screens player for the first time, you may get an error State.  In order for the Screens Player to function, a couple of AEM Author OSGI configurations must be made.
 ![AEM Screens Configuration](../../Resources/Picture2.png)
