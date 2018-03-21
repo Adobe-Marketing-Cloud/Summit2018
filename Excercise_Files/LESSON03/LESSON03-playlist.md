@@ -10,6 +10,9 @@ Create a sequence channel
 
 
 1. (Optional) Please install the Sample Asset package file via package manager --> http://localhost:4502/crx/packmgr/index.jsp
+Sample Assets --> https://files.acrobat.com/a/preview/29461192-40fb-4107-9ed3-9a66b97fad37
+
+
 ![Package Manager](../../Resources/Picture10.png) 
 If the images from a GA AEM 6.4 is not creative enough, i am supplying a few additional images & videos.
 
