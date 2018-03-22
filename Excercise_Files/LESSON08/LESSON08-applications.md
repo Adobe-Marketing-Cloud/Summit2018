@@ -52,16 +52,24 @@ In this lesson, we will learn how to attach a phsyical screen player to a locati
 8. Click on the Hangman Application Channel & Select Edit.   Double click the Application component & select the path for the Hangman app
 ![Hangman](../../Resources/Picture57.png)
 
-9. Create application channels for Demo App & Explosion.
+9. Create application channels for Hangman.
 
-10. Re-order the priorities of your primary display
+- Use Priority Level 3
+- Use Supported Events:  Timer
+
+![application channel](../../Resources/Picture58.png)
+
+
+10. Create application channels for Demo App & Explosion.  user a lower priority of 1 & supported events Timer
+
+11. Re-order the priorities of your primary display
  ![primary channel schedule](../../Resources/Picture54.png)
  - Marketing Campaign role should be priority 3 with after 9:00AM and before 10:00AM
  - default role should be priority 2
  - Add a new channel called hangman.  The supported events should be User Interative only
  ![hangman](../../Resources/Picture55.png)
 
-11. From the Locations Dashboard, click on preview to view your content.  While it is playing, click on the screen to trigger the interactive trigger
+12. From the Locations Dashboard, click on preview to view your content.  While it is playing, click on the screen to trigger the interactive trigger
 
  **Note**
  the idle channel should play by default
