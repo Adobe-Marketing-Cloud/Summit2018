@@ -1,8 +1,8 @@
-## Exercise 7 - Attaching an Application
+## Exercise 10 - Take home work - Advanced examples
 ===========
 
 ## Objective
-In this lesson, we will learn how to attach a phsyical screen player to a location.
+In this lesson, we will provide working samples of advanced personalization techniques
 
 ## Tasks
 

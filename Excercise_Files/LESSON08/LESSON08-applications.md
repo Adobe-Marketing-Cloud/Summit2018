@@ -55,26 +55,15 @@ In this lesson, we will learn how to leverage applications within a player.
 9. Create application channels for Hangman.
 
 - Use Priority Level 3
-- Use Supported Events:  Timer
+- Use Supported Events:  Initial Load
 
 ![application channel](../../Resources/Picture58.png)
 
+From your location dashboard, click on preview to load the experience
 
-10. Create application channels for Demo App & Explosion.  user a lower priority of 1 & supported events Timer
+10. Create application channels for Demo App & Explosion.  To view Demo App, use a higher priority of (4) & supported events Initial Load to view the other applications.  To view Explosian, again use a higher priority & the Initial View event.
 
-11. Re-order the priorities of your primary display
- ![primary channel schedule](../../Resources/Picture54.png)
- - Marketing Campaign role should be priority 3 with after 9:00AM and before 10:00AM
- - default role should be priority 2
- - Add a new channel called hangman.  The supported events should be User Interative only
- ![hangman](../../Resources/Picture55.png)
 
-12. From the Locations Dashboard, click on preview to view your content.  While it is playing, click on the screen to trigger the interactive trigger
-
- **Note**
- the idle channel should play by default
- when a user clicks on the screen, the User Interaction trigger fires & switches channel to the hangman application.
- You can interact with the screen to play hangman
 
 
 
