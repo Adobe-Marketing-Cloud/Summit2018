@@ -28,6 +28,7 @@ This tutorial goes through key exercises to help you get started with AEM Screen
 
 8 [Exercise 8 - Using an Interactive Application](Excercise_Files/LESSON08/LESSON08-applications.md)
 
-7 [Exercise 7 - Using the How to sample package](Excercise_Files/LESSON09/LESSON09-howto.md)
+9 [Exercise 9 - Using Triggers & Personalization](Excercise_Files/LESSON09/LESSON09-triggers.md)
 
+10 [Exercise 10 - Using the How to sample package](Excercise_Files/LESSON10/LESSON10-howto.md)
 
