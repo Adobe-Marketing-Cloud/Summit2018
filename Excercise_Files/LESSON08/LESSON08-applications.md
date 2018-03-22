@@ -41,6 +41,8 @@ In this lesson, we will learn how to attach a phsyical screen player to a locati
 
 5.9  Change the property title in the location /apps/summit/templates/appchannel from Application Channel to Application Channel w/ Offline
 
+![template](../../Resources/Picture56.png)
+
 6. From the apps folder, create a new entity & then select the Applications Channel w/ Offline Tile
 ![application tile](../../Resources/Picture51.png)
 
