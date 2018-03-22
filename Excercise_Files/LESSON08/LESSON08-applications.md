@@ -50,7 +50,7 @@ In this lesson, we will learn how to attach a phsyical screen player to a locati
 ![hangman](../../Resources/Picture52.png)
 
 8. Click on the Hangman Application Channel & Select Edit.   Double click the Application component & select the path for the Hangman app
-![Hangman](../../Resources/Picture56.png)
+![Hangman](../../Resources/Picture57.png)
 
 9. Create application channels for Demo App & Explosion.
 
