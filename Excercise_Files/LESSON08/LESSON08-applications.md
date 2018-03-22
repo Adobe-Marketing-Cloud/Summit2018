@@ -2,7 +2,7 @@
 ===========
 
 ## Objective
-In this lesson, we will learn how to attach a phsyical screen player to a location.
+In this lesson, we will learn how to leverage applications within a player.
 
 ## Tasks
 
