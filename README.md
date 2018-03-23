@@ -1,4 +1,3 @@
-*** WARNING : REPO UNDER CONSTRUCTION ***
 ================================================
 
 Adobe Commerce Cloud - Sample Extention Tutorial
