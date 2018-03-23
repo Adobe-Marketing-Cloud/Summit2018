@@ -40,6 +40,6 @@ Required Resources
 ## [Exercise 4 - Audience Manager Integration](exercise4)
 - Preview Adobe Cloud Platform > Audience Manager Integration
 - Explore Audience Manager Datasources and Traits
-- Explore Audience Manager Segments powered by Adobe AI Studio
+- Explore Audience Manager Segments powered by Adobe Data Science Workspace
 
 Let's go! ➡[Exercise 1](exercise1/README.md)
