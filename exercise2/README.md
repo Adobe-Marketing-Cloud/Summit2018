@@ -66,7 +66,7 @@ Features that have a lock icon are required and cannot be removed. The additiona
 | NumTrees |  The number of trees to create for the Random forest algorithm | 25 - 50 |
 | MaxDepth | The maximum depth of each tree for mining rules for Random forest algorithm | 5 - 15 |
 
-![Create Experiment](../images/create-exp.jpg.jpg)
+![Create Experiment](../images/create-exp.jpg)
 
 
 ## Evaluate the Accuracy of Experiments
