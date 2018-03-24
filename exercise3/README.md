@@ -1,4 +1,4 @@
-# Exercise 3 - Publishing an Intelligent Service and Making Predictions
+# Exercise 3 - Intelligent Services and Making Predictions
 
 ⏳Time Allocated: 10 minutes
 
@@ -12,7 +12,7 @@ Concepts:
 ![lightbulb](../images/lightbulb.jpg) **Batch Scoring** - Making predictions for a batch of records. Batch Scoring is typically an asynchronous process, whereas real-time scoring is generally executed as a synchronous process on a single record.
 
 Objectives:
-- Publish an Experiment as an Intelligent Service
+- Select an Experiment and View Service
 - Make Predictions Using Batch Scoring
 
 ## Log into the Adobe Cloud Platform
@@ -22,16 +22,16 @@ You may skip this step if you are already logged in.
 1. Navigate to: https://ui-prod1-va7.cloud.adobe.io/
 2. Authenticate using the provided credentials
 
-## Publish an Experiment as an Intelligent Service
+## Select an Experiment and View Service
 
-In the previous exercise you were asked to run a variety of experiments, review the Evaluation Metrics for each, then to choose an Experiment that you would like to publish.
+In the previous exercise you were asked to examine a number of experiments, review the Evaluation Metrics for each, then to identify the Experiment with the best accuracy.
 
-1. Select the Experiment that you would like to publish
-2. On the Experiment details page select the option to **Publish**
+1. Select the Experiment you would like to use for scoring
+2. On the Experiment details page select the option to **View Service**
 
 ## Make Predictions Using Batch Scoring
 
-Now that your experiment has been published it can be used for scoring operations to make predictions for new records.
+A published service can be used for scoring operations to make predictions for new records.
 
 1. In the **Select Dataset to Score** dropdown menu, choose **ProductPurchaseScoringData**
 2. Click **Score**
