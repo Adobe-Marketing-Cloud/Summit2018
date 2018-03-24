@@ -27,11 +27,8 @@ Navigate to Audience Manager using the Solution Picker.
 ![Audience Manager](../images/aam.jpg) 
 ## Log into Audience Manager
 
-Skip this step if you are already logged in and have navigated to Audience Manager using the solution picker.
-
-1. Navigate to: https://bank-beta.demdex.com/
-2. Select the option to **Sign in with Adobe ID**
-3. Authenticate using the provided credentials
+1. Select the option to **Sign in with Adobe ID**
+2. Authenticate using the provided credentials
 
 ![Sign in with Adobe ID](../images/adobeid.jpg)
 
