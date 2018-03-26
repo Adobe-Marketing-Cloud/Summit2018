@@ -29,7 +29,7 @@ Make sure that Allow Empty is checked
 ![Apache Sling Referrer filter](../../Resources/Picture3.png)
 
 
-2.2  Open the Felix Console, find the Apache Sling Referrer filter -->  http://localhost:4502/system/console/configMgr/com.day.cq.dam.core.impl.servlet.DamContentDispositionFilter
+2.2  Open the Felix Console, find the Dam Safe Binary Filter -->  http://localhost:4502/system/console/configMgr/com.day.cq.dam.core.impl.servlet.DamContentDispositionFilter
 
 Remove the line text/html
 ![Apache Dam Safe Binary Filter](../../Resources/Picture4.png)

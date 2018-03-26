@@ -2,7 +2,7 @@
 ===========
 
 ## Objective
-In this lesson, we will learn how to leverage applications within a player.
+In this lesson, we will learn how to leverage applications within a player by creating the application, applying the application within an Application Channel & finally scheduling your application channel within your Location.
 
 ## Tasks
 

@@ -1,9 +1,8 @@
-## Exercise 4 - Creating your Locations
+## Exercise 4 - Attaching a Player to your location
 
 ===========
 
 ## Objective
-Create a Location - where you can associate your playlists to devices.
 
 
 ## Tasks
