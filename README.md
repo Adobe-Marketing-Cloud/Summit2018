@@ -26,20 +26,20 @@ Required Resources
 - Previewing Sample Data
 - Data Governance
 
-## [Exercise 2 - Instance Creation and Training](exercise2)
+## [Exercise 2 - Recipes and Training Experiments](exercise2)
 
-- Creating an Instance of a Machine Learning Recipe
-- Running Training Experiments
-- Evaluating the Performance of Your Experiments
-- Identifying an Experiment to Publish
+- Machine Learning Recipes
+- Recipe Instances
+- Training Experiments
+- Evaluating the Accuracy of Experiments
 
-## [Exercise 3 - Publishing an Intelligent Service and Making Predictions](exercise3)
-- Publishing an Experiment as an Intelligent Service
+## [Exercise 3 - Intelligent Services and Making Predictions](exercise3)
+- Intelligent Services
 - Making Predictions Using Batch Scoring
 
 ## [Exercise 4 - Audience Manager Integration](exercise4)
 - Preview Adobe Cloud Platform > Audience Manager Integration
 - Explore Audience Manager Datasources and Traits
-- Explore Audience Manager Segments powered by Adobe AI Studio
+- Explore Audience Manager Segments powered by Adobe Data Science Workspace
 
 Let's go! ➡[Exercise 1](exercise1/README.md)

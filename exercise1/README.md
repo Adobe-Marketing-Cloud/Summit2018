@@ -72,7 +72,7 @@ In this lab we will not be adding additional data, but it is helpful to understa
 
 Data can be on-boarded to the Adobe Cloud Platform by uploading data files, through connectors such as Microsoft Dynamics and Salesforce, via the API and by using ETL tools such as Informatica.
 
-1. On the Data tab select the option to **Create Dataset**
+1. On the **DATA** tab select the option to **Create Dataset**
 2. Explore the various options for adding data to the platform
 
 ## (Optional) Add or Edit Data Usage Labels
