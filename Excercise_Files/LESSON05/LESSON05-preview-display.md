@@ -2,10 +2,6 @@
 
 ===========
 
-## Objective
-In this lesson, we will learn how to use the embedded firmware to preview your display (as it would render using the native Screen player)
-
-
 ## Tasks
 
 1. From your location dashboard, click on the (…) menu from Display Information & Select Preview Display

@@ -2,9 +2,6 @@
 
 ===========
 
-## Objective
-In this lesson, we will learn how to update offline content.  By Default, new channels are created in offline mode.  this means that a zip file containing your content is sent to the players (instead of individual asset calls real time)
-
 ## Tasks
 
 1. For every channel that you have created, open it up it’s dashboard.  You can get there via the location dashboard by clicking on the channel link

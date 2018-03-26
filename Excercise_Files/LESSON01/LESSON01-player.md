@@ -2,15 +2,19 @@
 
 ===========
 
-## Objective
-Install AEM Screens player
-
-
 ## Tasks
 
-1.	Install from MacOS DMG file
+1.	Install 
+
+1.1 from MacOS DMG file
 
 ![Image of ex1 outcome](../../Resources/Picture1.png) 
+
+1.2 for Chrome (on a mac or windows)
+
+- open chrome://extensions/
+- drag the file AEMScreensPlayer.crx into the chrome browser
+- open chrome://apps & double click on AEM Screens Player
 
 2.  Starting AEM Screens Player
 

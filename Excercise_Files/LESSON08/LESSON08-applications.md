@@ -1,9 +1,6 @@
 ## Exercise 7 - Attaching an Application
 ===========
 
-## Objective
-In this lesson, we will learn how to leverage applications within a player by creating the application, applying the application within an Application Channel & finally scheduling your application channel within your Location.
-
 ## Tasks
 
 1. Install the package [L727-Screen-Apps.zip](../../Packages/L727-Screen-Apps.zip)

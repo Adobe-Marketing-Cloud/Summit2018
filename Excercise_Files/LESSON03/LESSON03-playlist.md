@@ -2,10 +2,6 @@
 
 ===========
 
-## Objective
-Create a sequence channel
-
-
 ## Tasks
 
 

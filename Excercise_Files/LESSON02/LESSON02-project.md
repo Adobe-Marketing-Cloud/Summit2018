@@ -2,10 +2,6 @@
 
 ===========
 
-## Objective
-Create a Screens Project
-
-
 ## Tasks
 
 1. From the Adobe Experience Manager link (top left), click on Screens to arrive at the main Screens section  http://localhost:4502/screens.html/content/screens

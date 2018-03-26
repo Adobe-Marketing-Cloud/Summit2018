@@ -1,8 +1,6 @@
-## Exercise 4 - Attaching a Player to your location
+## Exercise 4 - Creation a Location taxonomy for your displays
 
 ===========
-
-## Objective
 
 
 ## Tasks
