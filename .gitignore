@@ -1,0 +1,15 @@
+vlt
+.classpath
+.project
+.settings/
+target/
+*/bin/
+.DS_Store
+.pmd
+lib/*
+.repo
+MANIFEST.MF
+
+#Intellij
+.idea/
+*.iml

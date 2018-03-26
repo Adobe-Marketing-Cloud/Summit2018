@@ -1,0 +1,112 @@
+.cmp-teaser--hero {
+
+  @teaser-padding: 6em;
+  @teaser-margin: 1.5em;
+  @teaser-default-bg: #252122;
+  @teaser-header-color: #fff;
+  @teaser-header-size: 2.5em;
+  @teaser-link-bg-color: @primary-color;
+  @teaser-link-bg-hover: #e53359;
+
+  &.full-width {
+    padding: 0;
+    background: @teaser-default-bg;
+    display: block;
+    padding: @teaser-padding 0;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: @teaser-margin;
+    margin-bottom: @teaser-margin;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .cmp-teaser {
+    display: inline-block;
+    padding: 2.5em 5em;
+    border-radius: 5px;
+    background-color: #252122;
+
+    .cmp-teaser__image {
+      display: none;
+    }
+
+    .cmp-teaser__title {
+      color: @teaser-header-color;
+      font-size: @teaser-header-size;
+      margin: 0 0 0.65em 0;
+    }
+
+    .cmp-teaser__description {
+      font-weight: 400;
+      font-size: 1.5em;
+      color: @primary-color;
+    }
+
+    .cmp-teaser__link {
+      margin: 0 @teaser-padding;
+      background: @teaser-link-bg-color;
+      font-size: 1.1em;
+      padding: 0.65em 1.5em 0.65em 1.5em;
+      display: inline-block;
+      text-decoration: none;
+      cursor: pointer;
+      border: 0;
+      border-radius: 5px;
+      color: @teaser-header-color !important;
+      font-weight: 700;
+      transition: background-color .25s ease-in-out;
+
+      &:hover {
+        text-decoration: none;
+        background: @teaser-link-bg-hover;
+      }
+    }
+  }
+
+  @media @mobile {
+    &.full-width {
+      padding: 4.5em 0;
+      margin-top: 0.5em;
+      margin-bottom: 1em;
+    }
+
+    .cmp-teaser {
+      display: block;
+      padding: 1.5em;
+      border-radius: unset;
+
+      .cmp-teaser__description {
+        display: none;
+      }
+
+      .cmp-teaser__title {
+        font-size: 1.5em;
+      }
+
+      .cmp-teaser__link {
+        font-size: 0.9em;
+      }
+    }
+  }
+
+  @media @tablet {
+    &.full-width {
+      padding: 2.5em 0;
+      margin-top: 0.5em;
+      margin-bottom: 1em;
+    }
+
+    .cmp-teaser {
+      .cmp-teaser__description {
+        font-size: 1em;
+      }
+
+      .cmp-teaser__title {
+        font-size: 2em;
+      }
+    }
+  }
+} 
