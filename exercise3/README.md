@@ -39,7 +39,7 @@ A published service can be used for scoring operations to make predictions for n
 
 ## Interpreting The Results
 
-Once the scoring operation has completed you will be presented with a summary of the results as a segmentation chart. The propensity value represents the probablity that this specific user will purchase the Osprey Atmos 65 AG Pack.
+Once the scoring operation has completed you will be presented with a summary of the results as a segmentation chart. The propensity value represents the probability that this specific user will purchase the Osprey Atmos 65 AG Pack.
 
 | Summary | Propensity |
 |:------|:------|
