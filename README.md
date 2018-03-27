@@ -10,12 +10,13 @@
 Lab 725 resources reside in [https://github.com/Adobe-Marketing-Cloud/Summit2018](https://github.com/Adobe-Marketing-Cloud/Summit2018) @ [Branch L725](https://github.com/Adobe-Marketing-Cloud/Summit2018/tree/L725).
 
 * The folder `files` contains all files used for this lab.
-* The folder `ui.apps` contains the the AEM Project that builds `files/l725.ui.apps-1.0.0.zip` and contains all source code for the project.
-* The Chapter Solution packages in in `files` contain configuration and content, but no code.
+	* The Chapter Solution packages in in `files` contain configuration and content, but no code.
+* The folder `src` contains the the AEM Project that builds `files/l725.ui.apps-1.0.0.zip` and contains all source code for the project.
+* The folder `chapters` contains the Markdown instructions for each chapter.
 
 ## Fix Package
 
-The package `files/l725.ui.apps.fix-1.0.0.zip` is used to patch installations of ` l725.ui.apps-0.0.1-SNAPSHOT.zip`.
+The package `files/l725.ui.apps.fix-1.0.0.zip` is used to patch installations of `files/l725.ui.apps-0.0.1-SNAPSHOT.zip`.
 If `file/l725.ui.apps-1.0.0.zip` is used, then the *fix* package is not necessary.
 
 ## Building
