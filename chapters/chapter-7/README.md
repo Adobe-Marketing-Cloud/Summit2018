@@ -48,7 +48,7 @@ jQuery(function($) {
 		
 		$(BLOCK--MODIFIER BLOCK).not("[data-<style-id>-processed]").each(function() { 
 			// Mark the component as processed for this style
-			var component = $(this).attre("data-<style-id>-processed", true);
+			var component = $(this).attr("data-<style-id>-processed", true);
 			
 			// Perform any work including modifying the DOM sub-tree of `var component`
 			// or making AJAX calls to collect and inject new data in the component.
