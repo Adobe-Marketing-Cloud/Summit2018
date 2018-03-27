@@ -1,0 +1,10 @@
+#base=.
+
+js/jquery.dropotron.min.js
+js/skel.min.js
+js/skel-viewport.min.js
+js/util.js
+
+components/navigation/navigation.js
+components/list/list.js
+components/teaser/teaser.js

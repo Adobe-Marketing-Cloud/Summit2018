@@ -1,0 +1,57 @@
+.cmp-title--section {
+
+  .cmp-title {
+    .border-color();
+
+    border-top-width: 1px;
+    border-top-style: solid;
+    margin: 0 0 3em 0;
+    position: relative;
+    text-align: center;
+    top: 1em;
+
+    .cmp-title__text {
+      .background-color();
+
+      display: inline;
+      margin: 0;
+      padding: 0 1em 0 1em;
+      position: relative;
+      top: -0.65em;
+    }
+  }
+
+  @media @mobile {
+    .cmp-title {
+      margin: 0 0 1em 0;
+    }
+  }
+
+  @media @tablet {
+    .cmp-title {
+      margin: 0.75em 0 2.5em 0;
+    }
+  }
+}
+
+/* Extra styles based colored layout containers */
+
+.cmp-layout-container--secondary {
+  .cmp-title--section {
+    .cmp-title {
+      .cmp-title__text {
+        .background-color--secondary();
+      }
+    }
+  }
+}
+
+.cmp-layout-container--inverse {
+  .cmp-title--section {
+    .cmp-title {
+      .cmp-title__text {
+        .background-color--inverse();
+      }
+    }
+  }
+}
