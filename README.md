@@ -9,6 +9,8 @@
 | [L729](../../tree/L729) | Optimize your Experience Manager author experience |
 | [L730](../../tree/L730) | Adobe Experience Manager development: Patterns and anti-patterns |
 | [L731](../../tree/L731) | Reusing Content for Mobile Apps |
+| [L732](../../tree/L732) | Deconstructing	Wireframes	into	AEM	Templates	and Components |
+| [L733](../../tree/L733) | Experience Manager Sites and Context Hub integration |
 | [L735](../../tree/L735) | Adobe Experience Manager Commerce How-To |
 | [L736](../../tree/L736) | Experience Manager search demystified |
 | [L737](../../tree/L737) | Building single-page apps with Experience Manager |
