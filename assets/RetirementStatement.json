@@ -1,0 +1,234 @@
+{
+  "swagger":"2.0",
+  "info":
+    {
+      "version":"1.0.0",
+      "title":"Simple API",
+      "description":"Learning Swagger"
+    },
+    "host":"localhost:8080",
+    "basePath":"/SampleRest/webapi",
+    "schemes":[
+        "http"
+    ],
+    "paths":{
+    "/getStatement/{id}":
+      {
+        "get":
+          {
+            "summary":"Gets the transction of user by id",
+            "produces":[
+            "application/json"
+            ],
+      "operationId":"getStatement",
+            "parameters":
+              [
+                {
+                  "name":"id",
+                  "type":"string",
+                  "in":"path",
+                  "required":true,
+                  "description":"Account Number of the Customer"
+                }
+              ],
+              "responses":
+              {
+                  "200":
+                    {
+                      "description":"Successfull Response",
+                      "schema": 
+                        {
+                          "$ref": "#/definitions/balances"
+                        }
+                        
+                    }
+                    
+              }
+          }
+      }
+    },
+  "definitions": {
+    "balance": {
+      "type": "object",
+      "properties": {
+        "balance": {
+          "type": "number"
+        },
+        "year": {
+          "type": "string"
+        }
+      }
+    },
+	"user":
+		{
+			"type":"object",
+			"properties":
+				{
+					"name":
+					{
+						"type":"string"
+					},
+					"state":
+					{
+						"type":"string"
+					},
+					"zip":
+					{
+						"type":"string"
+					},
+					"address":
+					{
+						"type":"string"
+					},
+					"city":
+					{
+						"type":"string"
+					},
+					"id":
+					{
+						"type":"string"
+					},
+					"possibleWithdrawals":
+					{
+						"type":"number"
+					},
+					"currentContributions":
+					{
+						"type":"number"
+					},
+					"onlineBanking":
+					{
+						"type":"string"
+					},
+					"directDeposit":
+					{
+						"type":"string"
+					}
+				}
+		},
+		
+		"currentAssetMix":
+		{
+			"type":"object",
+			"properties":
+				{
+					"assetType":
+						{
+							"type":"string"
+						},
+					"percentage":
+					{
+						"type":"number"
+					}
+				}
+		},
+		"modelAssetMix":
+		{
+			"type":"object",
+			"properties":
+				{
+					"assetType":
+						{
+							"type":"string"
+						},
+					"percentage":
+					{
+						"type":"number"
+					}
+				}
+		},
+		"estimatedIncome":
+		{
+			"type":"object",
+			"properties":
+				{
+					"contribution":
+						{
+							"type":"number"
+						},
+					"income":
+					{
+						"type":"number"
+					}
+				}
+		},
+		
+		"accountSummary":
+		{
+			"type":"object",
+			"properties":
+				{
+					"current":
+						{
+							"type":"string"
+						},
+					"description":
+					{
+						"type":"string"
+					},
+					"ytd":
+						{
+							"type":"string"
+						}
+					
+				}
+		},
+    "balances" : {
+      
+      "type":"object",
+                      "properties":
+                        {
+                          "balances":
+                          {
+                            "type":"array",
+                            "items":
+                              {
+                                "$ref": "#/definitions/balance"
+                              }
+                          },
+						  "accountSummary":
+						  {
+							"type":"array",
+							"items":
+							{
+								"$ref":"#/definitions/accountSummary"
+							}
+						  },
+						  "estimatedIncome":
+						  {
+							"type":"array",
+							"items":
+							{
+								"$ref":"#/definitions/estimatedIncome"
+							}
+						  },
+						  "currentAssetMix":
+						  {
+							"type":"array",
+							"items":
+							{
+							"$ref":"#/definitions/currentAssetMix"
+							}
+						  },
+						  "modelAssetMix":
+						  {
+							"type":"array",
+							"items":
+							{
+							"$ref":"#/definitions/modelAssetMix"
+							}
+						  },
+						  
+						  
+						  "user":
+						  {
+							"type":"object",
+							"$ref":"#/definitions/user"
+						  }
+                          
+                         }
+    }
+    
+  }
+    
+}
