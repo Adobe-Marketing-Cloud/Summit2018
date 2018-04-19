@@ -2,6 +2,8 @@
 
 | *Lab ID* | *Description* |
 |---|---|
+| [L722](../../tree/L722) | [Forms] Interactive Communications Document |
+| [L723](../../tree/L722) | [Forms] Authoring Adaptive Forms |
 | [L724](../../tree/L724) | Headless Adobe Experience Manager — Beyond content repository |
 | [L725](../../tree/L725) | Accelerate your development with Experience Manager Core Components |
 | [L727](../../tree/L727) | Experience Manager Screens: Zero to personalized in 90 minutes |
