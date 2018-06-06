@@ -29,6 +29,3 @@ summit-L731-aem/ui.apps/target
 .DS_Store
 .brackets.json
 *.class
-
-app/package-lock.json
-app/package.json
